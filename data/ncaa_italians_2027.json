@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-11-03T12:00:00Z",
+  "last_updated": "2026-11-03T12:42:41Z",
   "season": "2026-27",
   "league": "NCAA Division I",
   "meta": {
     "total_players": 8,
-    "source": "NCAA / RealGM Sports Data"
+    "source": "NCAA / RealGM Sports Data",
+    "last_sync_status": "success"
   },
   "players": [
     {
@@ -45,10 +46,34 @@
         "minutes": 27
       },
       "shot_chart": [
-        { "x": 0.0, "y": 4.5, "made": true, "type": "layup", "zone": "paint" },
-        { "x": -18.2, "y": 14.1, "made": true, "type": "three", "zone": "left_wing" },
-        { "x": 19.0, "y": 13.5, "made": false, "type": "three", "zone": "right_wing" },
-        { "x": 0.5, "y": 24.2, "made": true, "type": "three", "zone": "top_key" }
+        {
+          "x": 0.0,
+          "y": 4.5,
+          "made": true,
+          "type": "layup",
+          "zone": "paint"
+        },
+        {
+          "x": -18.2,
+          "y": 14.1,
+          "made": true,
+          "type": "three",
+          "zone": "left_wing"
+        },
+        {
+          "x": 19.0,
+          "y": 13.5,
+          "made": false,
+          "type": "three",
+          "zone": "right_wing"
+        },
+        {
+          "x": 0.5,
+          "y": 24.2,
+          "made": true,
+          "type": "three",
+          "zone": "top_key"
+        }
       ]
     },
     {
@@ -89,9 +114,27 @@
         "minutes": 28
       },
       "shot_chart": [
-        { "x": 1.2, "y": 3.8, "made": true, "type": "dunk", "zone": "paint" },
-        { "x": -2.0, "y": 5.0, "made": true, "type": "layup", "zone": "paint" },
-        { "x": 22.0, "y": 4.0, "made": false, "type": "three", "zone": "right_corner" }
+        {
+          "x": 1.2,
+          "y": 3.8,
+          "made": true,
+          "type": "dunk",
+          "zone": "paint"
+        },
+        {
+          "x": -2.0,
+          "y": 5.0,
+          "made": true,
+          "type": "layup",
+          "zone": "paint"
+        },
+        {
+          "x": 22.0,
+          "y": 4.0,
+          "made": false,
+          "type": "three",
+          "zone": "right_corner"
+        }
       ]
     },
     {
@@ -132,9 +175,27 @@
         "minutes": 25
       },
       "shot_chart": [
-        { "x": 0.0, "y": 3.2, "made": true, "type": "hook", "zone": "paint" },
-        { "x": 2.5, "y": 8.0, "made": true, "type": "jumper", "zone": "mid_range" },
-        { "x": -3.0, "y": 4.1, "made": false, "type": "layup", "zone": "paint" }
+        {
+          "x": 0.0,
+          "y": 3.2,
+          "made": true,
+          "type": "hook",
+          "zone": "paint"
+        },
+        {
+          "x": 2.5,
+          "y": 8.0,
+          "made": true,
+          "type": "jumper",
+          "zone": "mid_range"
+        },
+        {
+          "x": -3.0,
+          "y": 4.1,
+          "made": false,
+          "type": "layup",
+          "zone": "paint"
+        }
       ]
     },
     {
@@ -175,8 +236,20 @@
         "minutes": 26
       },
       "shot_chart": [
-        { "x": 0.5, "y": 4.0, "made": true, "type": "layup", "zone": "paint" },
-        { "x": -10.0, "y": 12.0, "made": true, "type": "jumper", "zone": "mid_range" }
+        {
+          "x": 0.5,
+          "y": 4.0,
+          "made": true,
+          "type": "layup",
+          "zone": "paint"
+        },
+        {
+          "x": -10.0,
+          "y": 12.0,
+          "made": true,
+          "type": "jumper",
+          "zone": "mid_range"
+        }
       ]
     },
     {
@@ -217,8 +290,20 @@
         "minutes": 24
       },
       "shot_chart": [
-        { "x": -22.5, "y": 3.5, "made": true, "type": "three", "zone": "left_corner" },
-        { "x": 18.0, "y": 15.0, "made": false, "type": "three", "zone": "right_wing" }
+        {
+          "x": -22.5,
+          "y": 3.5,
+          "made": true,
+          "type": "three",
+          "zone": "left_corner"
+        },
+        {
+          "x": 18.0,
+          "y": 15.0,
+          "made": false,
+          "type": "three",
+          "zone": "right_wing"
+        }
       ]
     },
     {
@@ -259,8 +344,20 @@
         "minutes": 18
       },
       "shot_chart": [
-        { "x": 1.0, "y": 3.0, "made": true, "type": "hook", "zone": "paint" },
-        { "x": -1.5, "y": 4.0, "made": true, "type": "dunk", "zone": "paint" }
+        {
+          "x": 1.0,
+          "y": 3.0,
+          "made": true,
+          "type": "hook",
+          "zone": "paint"
+        },
+        {
+          "x": -1.5,
+          "y": 4.0,
+          "made": true,
+          "type": "dunk",
+          "zone": "paint"
+        }
       ]
     },
     {
@@ -301,7 +398,13 @@
         "minutes": 16
       },
       "shot_chart": [
-        { "x": 0.0, "y": 3.0, "made": true, "type": "layup", "zone": "paint" }
+        {
+          "x": 0.0,
+          "y": 3.0,
+          "made": true,
+          "type": "layup",
+          "zone": "paint"
+        }
       ]
     },
     {
@@ -342,8 +445,20 @@
         "minutes": 20
       },
       "shot_chart": [
-        { "x": -1.0, "y": 3.5, "made": true, "type": "hook", "zone": "paint" },
-        { "x": 0.5, "y": 4.5, "made": true, "type": "dunk", "zone": "paint" }
+        {
+          "x": -1.0,
+          "y": 3.5,
+          "made": true,
+          "type": "hook",
+          "zone": "paint"
+        },
+        {
+          "x": 0.5,
+          "y": 4.5,
+          "made": true,
+          "type": "dunk",
+          "zone": "paint"
+        }
       ]
     }
   ]
