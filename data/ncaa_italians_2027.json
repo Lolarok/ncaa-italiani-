@@ -1,0 +1,350 @@
+{
+  "last_updated": "2026-11-03T12:00:00Z",
+  "season": "2026-27",
+  "league": "NCAA Division I",
+  "meta": {
+    "total_players": 8,
+    "source": "NCAA / RealGM Sports Data"
+  },
+  "players": [
+    {
+      "id": "niccolo-moretti",
+      "name": "Niccolò Moretti",
+      "team": "FAU Owls",
+      "conference": "AAC",
+      "class": "Junior",
+      "position": "PG",
+      "jersey": "11",
+      "height": "6-3",
+      "weight": "185",
+      "hometown": "Bologna, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 4,
+        "minutes_per_game": 24.5,
+        "points_per_game": 11.2,
+        "rebounds_per_game": 3.1,
+        "assists_per_game": 4.8,
+        "steals_per_game": 1.2,
+        "blocks_per_game": 0.2,
+        "turnovers_per_game": 1.9,
+        "field_goal_pct": 46.5,
+        "three_point_pct": 38.2,
+        "free_throw_pct": 84.0,
+        "true_shooting_pct": 58.4,
+        "usage_rate": 21.6
+      },
+      "last_game": {
+        "opponent": "Temple",
+        "date": "2026-11-01",
+        "result": "W 78-71",
+        "points": 14,
+        "rebounds": 4,
+        "assists": 6,
+        "steals": 2,
+        "minutes": 27
+      },
+      "shot_chart": [
+        { "x": 0.0, "y": 4.5, "made": true, "type": "layup", "zone": "paint" },
+        { "x": -18.2, "y": 14.1, "made": true, "type": "three", "zone": "left_wing" },
+        { "x": 19.0, "y": 13.5, "made": false, "type": "three", "zone": "right_wing" },
+        { "x": 0.5, "y": 24.2, "made": true, "type": "three", "zone": "top_key" }
+      ]
+    },
+    {
+      "id": "emmanuel-innocenti",
+      "name": "Emmanuel Innocenti",
+      "team": "Gonzaga Bulldogs",
+      "conference": "WCC",
+      "class": "Junior",
+      "position": "SF",
+      "jersey": "14",
+      "height": "6-5",
+      "weight": "200",
+      "hometown": "Rome, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 5,
+        "minutes_per_game": 26.0,
+        "points_per_game": 8.8,
+        "rebounds_per_game": 5.4,
+        "assists_per_game": 2.2,
+        "steals_per_game": 1.8,
+        "blocks_per_game": 0.6,
+        "turnovers_per_game": 1.4,
+        "field_goal_pct": 48.0,
+        "three_point_pct": 34.5,
+        "free_throw_pct": 73.5,
+        "true_shooting_pct": 55.1,
+        "usage_rate": 16.4
+      },
+      "last_game": {
+        "opponent": "San Diego State",
+        "date": "2026-11-02",
+        "result": "W 82-74",
+        "points": 10,
+        "rebounds": 7,
+        "assists": 3,
+        "steals": 3,
+        "minutes": 28
+      },
+      "shot_chart": [
+        { "x": 1.2, "y": 3.8, "made": true, "type": "dunk", "zone": "paint" },
+        { "x": -2.0, "y": 5.0, "made": true, "type": "layup", "zone": "paint" },
+        { "x": 22.0, "y": 4.0, "made": false, "type": "three", "zone": "right_corner" }
+      ]
+    },
+    {
+      "id": "nelson-osasuyi",
+      "name": "Nelson Osasuyi",
+      "team": "Oregon State Beavers",
+      "conference": "WCC",
+      "class": "Sophomore",
+      "position": "PF/C",
+      "jersey": "24",
+      "height": "6-9",
+      "weight": "225",
+      "hometown": "Castelfranco Veneto, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 4,
+        "minutes_per_game": 21.0,
+        "points_per_game": 9.4,
+        "rebounds_per_game": 7.2,
+        "assists_per_game": 1.1,
+        "steals_per_game": 0.5,
+        "blocks_per_game": 1.4,
+        "turnovers_per_game": 1.2,
+        "field_goal_pct": 58.2,
+        "three_point_pct": 25.0,
+        "free_throw_pct": 68.0,
+        "true_shooting_pct": 61.2,
+        "usage_rate": 18.0
+      },
+      "last_game": {
+        "opponent": "Nevada",
+        "date": "2026-10-31",
+        "result": "L 66-70",
+        "points": 12,
+        "rebounds": 9,
+        "assists": 1,
+        "steals": 0,
+        "minutes": 25
+      },
+      "shot_chart": [
+        { "x": 0.0, "y": 3.2, "made": true, "type": "hook", "zone": "paint" },
+        { "x": 2.5, "y": 8.0, "made": true, "type": "jumper", "zone": "mid_range" },
+        { "x": -3.0, "y": 4.1, "made": false, "type": "layup", "zone": "paint" }
+      ]
+    },
+    {
+      "id": "leonardo-bettiol",
+      "name": "Leonardo Bettiol",
+      "team": "Abilene Christian Wildcats",
+      "conference": "WAC",
+      "class": "Senior",
+      "position": "PF",
+      "jersey": "15",
+      "height": "6-8",
+      "weight": "230",
+      "hometown": "Treviso, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 4,
+        "minutes_per_game": 25.2,
+        "points_per_game": 12.0,
+        "rebounds_per_game": 6.8,
+        "assists_per_game": 1.8,
+        "steals_per_game": 0.8,
+        "blocks_per_game": 0.9,
+        "turnovers_per_game": 1.7,
+        "field_goal_pct": 54.0,
+        "three_point_pct": 31.0,
+        "free_throw_pct": 74.5,
+        "true_shooting_pct": 57.3,
+        "usage_rate": 22.4
+      },
+      "last_game": {
+        "opponent": "Stephen F. Austin",
+        "date": "2026-11-01",
+        "result": "W 75-69",
+        "points": 15,
+        "rebounds": 8,
+        "assists": 2,
+        "steals": 1,
+        "minutes": 26
+      },
+      "shot_chart": [
+        { "x": 0.5, "y": 4.0, "made": true, "type": "layup", "zone": "paint" },
+        { "x": -10.0, "y": 12.0, "made": true, "type": "jumper", "zone": "mid_range" }
+      ]
+    },
+    {
+      "id": "abramo-canka",
+      "name": "Abramo Canka",
+      "team": "Stetson Hatters",
+      "conference": "ASUN",
+      "class": "Senior",
+      "position": "SG/SF",
+      "jersey": "1",
+      "height": "6-6",
+      "weight": "200",
+      "hometown": "Genoa, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 4,
+        "minutes_per_game": 23.0,
+        "points_per_game": 9.5,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 2.0,
+        "steals_per_game": 1.0,
+        "blocks_per_game": 0.4,
+        "turnovers_per_game": 1.5,
+        "field_goal_pct": 43.5,
+        "three_point_pct": 36.0,
+        "free_throw_pct": 78.0,
+        "true_shooting_pct": 53.8,
+        "usage_rate": 19.5
+      },
+      "last_game": {
+        "opponent": "FGCU",
+        "date": "2026-10-30",
+        "result": "W 71-68",
+        "points": 11,
+        "rebounds": 5,
+        "assists": 3,
+        "steals": 1,
+        "minutes": 24
+      },
+      "shot_chart": [
+        { "x": -22.5, "y": 3.5, "made": true, "type": "three", "zone": "left_corner" },
+        { "x": 18.0, "y": 15.0, "made": false, "type": "three", "zone": "right_wing" }
+      ]
+    },
+    {
+      "id": "francesco-borra",
+      "name": "Francesco Borra",
+      "team": "UC Davis Aggies",
+      "conference": "Big West",
+      "class": "Senior",
+      "position": "C",
+      "jersey": "21",
+      "height": "6-11",
+      "weight": "250",
+      "hometown": "Moncalieri, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 3,
+        "minutes_per_game": 17.5,
+        "points_per_game": 6.3,
+        "rebounds_per_game": 5.1,
+        "assists_per_game": 0.8,
+        "steals_per_game": 0.3,
+        "blocks_per_game": 1.1,
+        "turnovers_per_game": 1.0,
+        "field_goal_pct": 52.0,
+        "three_point_pct": 0.0,
+        "free_throw_pct": 65.0,
+        "true_shooting_pct": 54.0,
+        "usage_rate": 15.2
+      },
+      "last_game": {
+        "opponent": "Cal Poly",
+        "date": "2026-11-01",
+        "result": "W 69-63",
+        "points": 8,
+        "rebounds": 6,
+        "assists": 1,
+        "steals": 0,
+        "minutes": 18
+      },
+      "shot_chart": [
+        { "x": 1.0, "y": 3.0, "made": true, "type": "hook", "zone": "paint" },
+        { "x": -1.5, "y": 4.0, "made": true, "type": "dunk", "zone": "paint" }
+      ]
+    },
+    {
+      "id": "riccardo-greppi",
+      "name": "Riccardo Greppi",
+      "team": "Temple Owls",
+      "conference": "AAC",
+      "class": "Freshman",
+      "position": "C",
+      "jersey": "33",
+      "height": "6-10",
+      "weight": "240",
+      "hometown": "Cantù, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 3,
+        "minutes_per_game": 15.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 4.5,
+        "assists_per_game": 0.5,
+        "steals_per_game": 0.2,
+        "blocks_per_game": 0.8,
+        "turnovers_per_game": 0.8,
+        "field_goal_pct": 55.0,
+        "three_point_pct": 0.0,
+        "free_throw_pct": 60.0,
+        "true_shooting_pct": 56.2,
+        "usage_rate": 14.0
+      },
+      "last_game": {
+        "opponent": "FAU",
+        "date": "2026-11-01",
+        "result": "L 71-78",
+        "points": 6,
+        "rebounds": 5,
+        "assists": 0,
+        "steals": 0,
+        "minutes": 16
+      },
+      "shot_chart": [
+        { "x": 0.0, "y": 3.0, "made": true, "type": "layup", "zone": "paint" }
+      ]
+    },
+    {
+      "id": "giovanni-emejuru",
+      "name": "Giovanni Emejuru",
+      "team": "George Mason Patriots",
+      "conference": "Atlantic 10",
+      "class": "Redshirt Junior",
+      "position": "F/C",
+      "jersey": "23",
+      "height": "6-11",
+      "weight": "255",
+      "hometown": "Chieri, Italy",
+      "draft_eligible": 2027,
+      "stats": {
+        "games_played": 4,
+        "minutes_per_game": 19.5,
+        "points_per_game": 7.8,
+        "rebounds_per_game": 5.8,
+        "assists_per_game": 0.9,
+        "steals_per_game": 0.4,
+        "blocks_per_game": 1.0,
+        "turnovers_per_game": 1.3,
+        "field_goal_pct": 57.5,
+        "three_point_pct": 0.0,
+        "free_throw_pct": 64.0,
+        "true_shooting_pct": 59.1,
+        "usage_rate": 17.5
+      },
+      "last_game": {
+        "opponent": "Richmond",
+        "date": "2026-10-31",
+        "result": "W 73-65",
+        "points": 9,
+        "rebounds": 7,
+        "assists": 1,
+        "steals": 1,
+        "minutes": 20
+      },
+      "shot_chart": [
+        { "x": -1.0, "y": 3.5, "made": true, "type": "hook", "zone": "paint" },
+        { "x": 0.5, "y": 4.5, "made": true, "type": "dunk", "zone": "paint" }
+      ]
+    }
+  ]
+}
