@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italiani in NCAA - 2026/27 Tracker</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --green: #22c55e;
+      --tag-bg: #0f2744;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 1rem;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    h1 { font-size: 1.6rem; color: #fff; }
+    .status-badge {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      background: var(--card-bg);
+      padding: 0.4rem 0.8rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 6px var(--green);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .player-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .player-name { font-size: 1.25rem; font-weight: 700; color: #fff; }
+    .player-team { font-size: 0.9rem; color: var(--accent); font-weight: 600; }
+    .player-meta { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem; }
+    .badge {
+      background: var(--tag-bg);
+      color: var(--accent);
+      border: 1px solid #1e40af;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      background: #111827;
+      padding: 0.75rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stat-item .val { font-size: 1.15rem; font-weight: 700; color: #fff; }
+    .stat-item .lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }
+    .last-game {
+      font-size: 0.82rem;
+      background: #1e293b;
+      border-left: 3px solid var(--accent);
+      padding: 0.5rem 0.75rem;
+      border-radius: 4px;
+    }
+    .last-game-title { font-weight: 600; color: #e2e8f0; margin-bottom: 0.2rem; }
+    .last-game-stats { color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>🇮🇹 Prospetti Italiani NCAA</h1>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Stagione 2026/27 • Box score e metriche avanzate</p>
+      </div>
+      <div class="status-badge">
+        <span class="pulse-dot"></span>
+        <span id="sync-status">Caricamento dati...</span>
+      </div>
+    </header>
+
+    <main class="grid" id="players-grid">
+      <!-- Schede caricate via JavaScript -->
+    </main>
+  </div>
+
+  <script>
+    async function initDashboard() {
+      try {
+        const res = await fetch('data/ncaa_italians_2027.json?nocache=' + Date.now());
+        if (!res.ok) throw new Error('Impossibile caricare il JSON');
+        const data = await res.json();
+
+        // Data sync
+        const d = new Date(data.last_updated);
+        document.getElementById('sync-status').textContent = `Sync: ${d.toLocaleDateString('it-IT')} ${d.toLocaleTimeString('it-IT', {hour: '2-digit', minute:'2-digit'})}`;
+
+        const grid = document.getElementById('players-grid');
+        grid.innerHTML = '';
+
+        data.players.forEach(p => {
+          const s = p.stats || {};
+          const lg = p.last_game || {};
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <div class="player-header">
+              <div>
+                <div class="player-name">${p.name}</div>
+                <div class="player-team">${p.team} (${p.conference || ''})</div>
+                <div class="player-meta">${p.position} • #${p.jersey || '-'} • ${p.class} • ${p.height}</div>
+              </div>
+              <span class="badge">Draft '${p.draft_eligible}</span>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-item"><div class="val">${s.points_per_game ?? '-'}</div><div class="lbl">PTS</div></div>
+              <div class="stat-item"><div class="val">${s.rebounds_per_game ?? '-'}</div><div class="lbl">REB</div></div>
+              <div class="stat-item"><div class="val">${s.assists_per_game ?? '-'}</div><div class="lbl">AST</div></div>
+              <div class="stat-item"><div class="val">${s.field_goal_pct ? s.field_goal_pct + '%' : '-'}</div><div class="lbl">FG%</div></div>
+              <div class="stat-item"><div class="val">${s.three_point_pct ? s.three_point_pct + '%' : '-'}</div><div class="lbl">3P%</div></div>
+              <div class="stat-item"><div class="val">${s.true_shooting_pct ? s.true_shooting_pct + '%' : '-'}</div><div class="lbl">TS%</div></div>
+            </div>
+
+            ${lg.opponent ? `
+              <div class="last-game">
+                <div class="last-game-title">Ultima partita: vs ${lg.opponent} (${lg.result})</div>
+                <div class="last-game-stats">${lg.points} PTS, ${lg.rebounds} REB, ${lg.assists} AST in ${lg.minutes}' (${lg.date})</div>
+              </div>
+            ` : ''}
+          `;
+          grid.appendChild(card);
+        });
+      } catch (err) {
+        document.getElementById('sync-status').textContent = 'Errore caricamento dati';
+        console.error(err);
+      }
+    }
+    initDashboard();
+  </script>
+</body>
+</html>
