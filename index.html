@@ -3,180 +3,384 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Italiani in NCAA - 2026/27 Tracker</title>
+  <title>NCAA Italiani 2026/27 & NBA Draft 2027 Hub</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --border: #334155;
+      --bg: #070b14;
+      --surface: #111827;
+      --surface-hover: #1e293b;
+      --border: #26334d;
       --accent: #38bdf8;
+      --gold: #f59e0b;
+      --emerald: #10b981;
+      --purple: #a855f7;
       --text: #f8fafc;
-      --text-muted: #94a3b8;
-      --green: #22c55e;
-      --tag-bg: #0f2744;
+      --muted: #94a3b8;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.5;
       padding: 1rem;
     }
-    .container { max-width: 1100px; margin: 0 auto; }
+    .container { max-width: 1280px; margin: 0 auto; }
+
+    /* Header & KPI */
     header {
       padding: 1.5rem 0;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
     }
-    h1 { font-size: 1.6rem; color: #fff; }
-    .status-badge {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      background: var(--card-bg);
-      padding: 0.4rem 0.8rem;
-      border-radius: 9999px;
+    .brand h1 { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.03em; display: flex; align-items: center; gap: 0.5rem; }
+    .brand p { color: var(--muted); font-size: 0.9rem; margin-top: 0.25rem; }
+    .sync-pill {
+      background: var(--surface);
       border: 1px solid var(--border);
+      padding: 0.45rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
+      color: var(--muted);
     }
-    .pulse-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 6px var(--green);
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); box-shadow: 0 0 8px var(--emerald); }
+
+    /* KPI Strip */
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
     }
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+    }
+    .kpi-val { font-size: 1.6rem; font-weight: 800; color: #fff; }
+    .kpi-lbl { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+    /* Controls: Tabs & Search */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .tabs { display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.25rem; }
+    .tab {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 0.6rem 1.15rem;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: 0.2s;
+    }
+    .tab.active { background: var(--accent); color: #070b14; border-color: var(--accent); }
+    .tab.draft-tab.active { background: var(--gold); color: #070b14; border-color: var(--gold); }
+
+    .search-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: #fff;
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      min-width: 240px;
+    }
+
+    /* Grid & Cards */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
       gap: 1.25rem;
     }
     .card {
-      background: var(--card-bg);
+      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
+      border-radius: 14px;
+      padding: 1.35rem;
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      transition: transform 0.15s, border-color 0.15s;
     }
-    .player-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+    .card:hover { transform: translateY(-2px); border-color: #3b4f75; }
+    .card.is-draft {
+      border-color: rgba(245, 158, 11, 0.45);
+      background: linear-gradient(180deg, rgba(245, 158, 11, 0.06) 0%, var(--surface) 100%);
     }
-    .player-name { font-size: 1.25rem; font-weight: 700; color: #fff; }
-    .player-team { font-size: 0.9rem; color: var(--accent); font-weight: 600; }
-    .player-meta { font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem; }
-    .badge {
-      background: var(--tag-bg);
-      color: var(--accent);
-      border: 1px solid #1e40af;
-      padding: 0.2rem 0.5rem;
+
+    .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+    .p-name { font-size: 1.25rem; font-weight: 800; color: #fff; }
+    .p-team { font-size: 0.9rem; color: var(--accent); font-weight: 600; }
+    .p-bio { font-size: 0.78rem; color: var(--muted); margin-top: 0.2rem; }
+
+    .badge-draft {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--gold);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      padding: 0.25rem 0.6rem;
       border-radius: 6px;
-      font-size: 0.75rem;
-      font-weight: 600;
+      font-size: 0.72rem;
+      font-weight: 700;
+      white-space: nowrap;
     }
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.5rem;
-      background: #111827;
+
+    /* Draft Scouting Box */
+    .draft-box {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+      border-radius: 10px;
       padding: 0.75rem;
-      border-radius: 8px;
+      font-size: 0.8rem;
+    }
+    .draft-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.4rem;
+      margin-bottom: 0.5rem;
+    }
+    .d-item span { color: var(--muted); display: block; font-size: 0.7rem; }
+    .d-item strong { color: #fff; }
+    .scouting-note {
+      color: #cbd5e1;
+      font-size: 0.78rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 0.45rem;
+      font-style: italic;
+    }
+
+    /* Stats Matrix */
+    .stats-matrix {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.45rem;
+      background: #090d16;
+      padding: 0.75rem;
+      border-radius: 10px;
       text-align: center;
     }
-    .stat-item .val { font-size: 1.15rem; font-weight: 700; color: #fff; }
-    .stat-item .lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }
-    .last-game {
-      font-size: 0.82rem;
+    .st-val { font-size: 1.05rem; font-weight: 800; color: #fff; }
+    .st-lbl { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; }
+
+    /* Shot Diet Bar */
+    .shot-diet { display: flex; flex-direction: column; gap: 0.3rem; }
+    .shot-diet-header { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); }
+    .diet-bar {
+      height: 8px;
+      width: 100%;
       background: #1e293b;
+      border-radius: 999px;
+      overflow: hidden;
+      display: flex;
+    }
+    .bar-rim { background: var(--emerald); }
+    .bar-mid { background: var(--gold); }
+    .bar-three { background: var(--accent); }
+
+    /* Last Game Footer */
+    .last-game {
+      font-size: 0.78rem;
+      background: rgba(56, 189, 248, 0.06);
       border-left: 3px solid var(--accent);
       padding: 0.5rem 0.75rem;
       border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .last-game-title { font-weight: 600; color: #e2e8f0; margin-bottom: 0.2rem; }
-    .last-game-stats { color: var(--text-muted); }
+    .lg-opp { font-weight: 700; color: #e2e8f0; }
+    .lg-line { color: var(--accent); font-weight: 700; }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <div>
-        <h1>🇮🇹 Prospetti Italiani NCAA</h1>
-        <p style="color: var(--text-muted); font-size: 0.9rem;">Stagione 2026/27 • Box score e metriche avanzate</p>
+      <div class="brand">
+        <h1>🇮🇹 NCAA Italiani 26/27 & Draft Hub</h1>
+        <p>Monitoraggio live Division I, Advanced Metrics, Shot Diet & NBA Draft 2027 Big Board</p>
       </div>
-      <div class="status-badge">
-        <span class="pulse-dot"></span>
-        <span id="sync-status">Caricamento dati...</span>
+      <div class="sync-pill">
+        <span class="dot"></span>
+        <span id="sync-time">Sincronizzazione...</span>
       </div>
     </header>
 
-    <main class="grid" id="players-grid">
-      <!-- Schede caricate via JavaScript -->
-    </main>
+    <section class="kpi-strip">
+      <div class="kpi-card">
+        <div class="kpi-val" id="kpi-total">-</div>
+        <div class="kpi-lbl">Giocatori Division I</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" id="kpi-draft" style="color: var(--gold);">-</div>
+        <div class="kpi-lbl">Prospetti NBA Draft '27</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" id="kpi-scorer">-</div>
+        <div class="kpi-lbl">Top Scorer (PPG)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val" id="kpi-ts" style="color: var(--emerald);">-</div>
+        <div class="kpi-lbl">Miglior True Shooting %</div>
+      </div>
+    </section>
+
+    <div class="controls">
+      <div class="tabs">
+        <button class="tab active" onclick="setFilter('all', this)">Tutti i Giocatori</button>
+        <button class="tab draft-tab" onclick="setFilter('draft', this)">🎯 NBA Draft 2027 Big Board</button>
+        <button class="tab" onclick="setFilter('G', this)">Guardie</button>
+        <button class="tab" onclick="setFilter('F', this)">Ali</button>
+        <button class="tab" onclick="setFilter('C', this)">Centri</button>
+      </div>
+      <input type="text" id="search-input" class="search-box" placeholder="Cerca giocatore, college o conference..." oninput="render()">
+    </div>
+
+    <main class="grid" id="players-container"></main>
   </div>
 
   <script>
-    async function initDashboard() {
+    let allPlayers = [];
+    let currentFilter = 'all';
+
+    async function boot() {
       try {
-        const res = await fetch('data/ncaa_italians_2027.json?nocache=' + Date.now());
-        if (!res.ok) throw new Error('Impossibile caricare il JSON');
+        const res = await fetch('data/ncaa_italians_2027.json?v=' + Date.now());
         const data = await res.json();
+        allPlayers = data.players || [];
 
-        // Data sync
-        const d = new Date(data.last_updated);
-        document.getElementById('sync-status').textContent = `Sync: ${d.toLocaleDateString('it-IT')} ${d.toLocaleTimeString('it-IT', {hour: '2-digit', minute:'2-digit'})}`;
+        const dt = new Date(data.last_updated);
+        document.getElementById('sync-time').textContent = `Aggiornato: ${dt.toLocaleDateString('it-IT')} ${dt.toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'})}`;
 
-        const grid = document.getElementById('players-grid');
-        grid.innerHTML = '';
+        // KPIs
+        document.getElementById('kpi-total').textContent = allPlayers.length;
+        document.getElementById('kpi-draft').textContent = allPlayers.filter(p => p.is_draft_prospect).length;
 
-        data.players.forEach(p => {
-          const s = p.stats || {};
-          const lg = p.last_game || {};
-          const card = document.createElement('article');
-          card.className = 'card';
-          card.innerHTML = `
-            <div class="player-header">
-              <div>
-                <div class="player-name">${p.name}</div>
-                <div class="player-team">${p.team} (${p.conference || ''})</div>
-                <div class="player-meta">${p.position} • #${p.jersey || '-'} • ${p.class} • ${p.height}</div>
-              </div>
-              <span class="badge">Draft '${p.draft_eligible}</span>
-            </div>
+        const topScorer = [...allPlayers].sort((a,b) => (b.stats?.points_per_game||0) - (a.stats?.points_per_game||0))[0];
+        if (topScorer) document.getElementById('kpi-scorer').textContent = `${topScorer.name.split(' ').pop()} (${topScorer.stats.points_per_game})`;
 
-            <div class="stats-grid">
-              <div class="stat-item"><div class="val">${s.points_per_game ?? '-'}</div><div class="lbl">PTS</div></div>
-              <div class="stat-item"><div class="val">${s.rebounds_per_game ?? '-'}</div><div class="lbl">REB</div></div>
-              <div class="stat-item"><div class="val">${s.assists_per_game ?? '-'}</div><div class="lbl">AST</div></div>
-              <div class="stat-item"><div class="val">${s.field_goal_pct ? s.field_goal_pct + '%' : '-'}</div><div class="lbl">FG%</div></div>
-              <div class="stat-item"><div class="val">${s.three_point_pct ? s.three_point_pct + '%' : '-'}</div><div class="lbl">3P%</div></div>
-              <div class="stat-item"><div class="val">${s.true_shooting_pct ? s.true_shooting_pct + '%' : '-'}</div><div class="lbl">TS%</div></div>
-            </div>
+        const topTs = [...allPlayers].sort((a,b) => (b.stats?.true_shooting_pct||0) - (a.stats?.true_shooting_pct||0))[0];
+        if (topTs) document.getElementById('kpi-ts').textContent = `${topTs.name.split(' ').pop()} (${topTs.stats.true_shooting_pct}%)`;
 
-            ${lg.opponent ? `
-              <div class="last-game">
-                <div class="last-game-title">Ultima partita: vs ${lg.opponent} (${lg.result})</div>
-                <div class="last-game-stats">${lg.points} PTS, ${lg.rebounds} REB, ${lg.assists} AST in ${lg.minutes}' (${lg.date})</div>
-              </div>
-            ` : ''}
-          `;
-          grid.appendChild(card);
-        });
-      } catch (err) {
-        document.getElementById('sync-status').textContent = 'Errore caricamento dati';
-        console.error(err);
+        render();
+      } catch (e) {
+        document.getElementById('sync-time').textContent = 'Errore lettura database';
+        console.error(e);
       }
     }
-    initDashboard();
+
+    function setFilter(f, btn) {
+      currentFilter = f;
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    }
+
+    function render() {
+      const q = document.getElementById('search-input').value.toLowerCase().trim();
+      const container = document.getElementById('players-container');
+      container.innerHTML = '';
+
+      let list = allPlayers.filter(p => {
+        const matchQuery = !q || p.name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q) || (p.conference||'').toLowerCase().includes(q);
+        if (!matchQuery) return false;
+        if (currentFilter === 'draft') return p.is_draft_prospect;
+        if (currentFilter === 'G') return p.position.includes('G');
+        if (currentFilter === 'F') return p.position.includes('F');
+        if (currentFilter === 'C') return p.position.includes('C');
+        return true;
+      });
+
+      if (currentFilter === 'draft') {
+        list.sort((a,b) => (a.draft_profile?.rank || 99) - (b.draft_profile?.rank || 99));
+      }
+
+      list.forEach(p => {
+        const s = p.stats || {};
+        const dp = p.draft_profile;
+        const sd = p.shot_diet || { rim_pct: 34, mid_pct: 33, three_pct: 33 };
+        const lg = p.last_game;
+
+        const el = document.createElement('article');
+        el.className = `card ${p.is_draft_prospect ? 'is-draft' : ''}`;
+
+        el.innerHTML = `
+          <div class="card-top">
+            <div>
+              <div class="p-name">${dp ? `#${dp.rank} ` : ''}${p.name}</div>
+              <div class="p-team">${p.team} (${p.conference})</div>
+              <div class="p-bio">${p.position} • #${p.jersey} • ${p.class} • ${p.height} / ${p.weight} lbs • ${p.hometown}</div>
+            </div>
+            ${dp ? `<span class="badge-draft">🎯 ${dp.tier}</span>` : ''}
+          </div>
+
+          ${dp ? `
+            <div class="draft-box">
+              <div class="draft-grid">
+                <div class="d-item"><span>Proiezione Draft '27</span><strong>${dp.projected_range}</strong></div>
+                <div class="d-item"><span>Wingspan</span><strong>${dp.wingspan}</strong></div>
+                <div class="d-item"><span>Archetipo</span><strong>${dp.archetype}</strong></div>
+                <div class="d-item"><span>NBA Comp</span><strong>${dp.nba_comp}</strong></div>
+              </div>
+              <div class="scouting-note">${dp.scouting}</div>
+            </div>
+          ` : ''}
+
+          <div class="stats-matrix">
+            <div><div class="st-val">${s.points_per_game ?? '-'}</div><div class="st-lbl">PTS</div></div>
+            <div><div class="st-val">${s.rebounds_per_game ?? '-'}</div><div class="st-lbl">REB</div></div>
+            <div><div class="st-val">${s.assists_per_game ?? '-'}</div><div class="st-lbl">AST</div></div>
+            <div><div class="st-val">${s.minutes_per_game ?? '-'}</div><div class="st-lbl">MIN</div></div>
+            <div><div class="st-val">${s.field_goal_pct ? s.field_goal_pct+'%' : '-'}</div><div class="st-lbl">FG%</div></div>
+            <div><div class="st-val">${s.three_point_pct ? s.three_point_pct+'%' : '-'}</div><div class="st-lbl">3P%</div></div>
+            <div><div class="st-val" style="color:var(--emerald)">${s.true_shooting_pct ? s.true_shooting_pct+'%' : '-'}</div><div class="st-lbl">TS%</div></div>
+            <div><div class="st-val" style="color:var(--accent)">${s.usage_rate ? s.usage_rate+'%' : '-'}</div><div class="st-lbl">USG%</div></div>
+          </div>
+
+          <div class="shot-diet">
+            <div class="shot-diet-header">
+              <span>Shot Diet: Ferro ${sd.rim_pct}%</span>
+              <span>Mid ${sd.mid_pct}%</span>
+              <span>3PT ${sd.three_pct}%</span>
+            </div>
+            <div class="diet-bar">
+              <div class="bar-rim" style="width:${sd.rim_pct}%"></div>
+              <div class="bar-mid" style="width:${sd.mid_pct}%"></div>
+              <div class="bar-three" style="width:${sd.three_pct}%"></div>
+            </div>
+          </div>
+
+          ${lg ? `
+            <div class="last-game">
+              <div>
+                <div class="lg-opp">vs ${lg.opponent} (${lg.result})</div>
+                <div style="color:var(--muted); font-size:0.7rem;">Data: ${lg.date} • ${lg.minutes} min</div>
+              </div>
+              <div class="lg-line">${lg.points} PT / ${lg.rebounds} RB / ${lg.assists} AS</div>
+            </div>
+          ` : ''}
+        `;
+        container.appendChild(el);
+      });
+    }
+
+    boot();
   </script>
 </body>
 </html>
