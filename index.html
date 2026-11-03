@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NCAA Italiani 2026/27 & ESPN NBA Draft 2027 Hub</title>
+  <title>NCAA Italiani 2026/27 • Advanced Analytics & Draft Hub</title>
   <style>
     :root {
       --bg: #070b14;
@@ -12,6 +12,7 @@
       --accent: #38bdf8;
       --gold: #f59e0b;
       --emerald: #10b981;
+      --purple: #a855f7;
       --text: #f8fafc;
       --muted: #94a3b8;
     }
@@ -50,21 +51,6 @@
     }
     .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--emerald); box-shadow: 0 0 8px var(--emerald); }
 
-    .kpi-strip {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    .kpi-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      padding: 1rem 1.25rem;
-      border-radius: 12px;
-    }
-    .kpi-val { font-size: 1.55rem; font-weight: 800; color: #fff; }
-    .kpi-lbl { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-
     .controls {
       display: flex;
       flex-wrap: wrap;
@@ -101,7 +87,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       gap: 1.25rem;
     }
     .card {
@@ -146,6 +132,7 @@
     .d-item strong { color: #fff; }
     .scouting-note { color: #cbd5e1; font-size: 0.78rem; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.45rem; font-style: italic; }
 
+    /* Stats Matrix */
     .stats-matrix {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -158,6 +145,22 @@
     .st-val { font-size: 1.05rem; font-weight: 800; color: #fff; }
     .st-lbl { font-size: 0.65rem; color: var(--muted); text-transform: uppercase; }
 
+    /* Advanced Analytics & Percentiles */
+    .advanced-section {
+      background: rgba(56, 189, 248, 0.04);
+      border: 1px solid rgba(56, 189, 248, 0.12);
+      border-radius: 10px;
+      padding: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .adv-title { font-size: 0.75rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; }
+    .percentile-row { display: flex; justify-content: space-between; align-items: center; font-size: 0.78rem; }
+    .percentile-bar-bg { flex-grow: 1; margin: 0 0.75rem; height: 6px; background: #1e293b; border-radius: 999px; overflow: hidden; }
+    .percentile-bar-fill { height: 100%; background: var(--accent); border-radius: 999px; }
+
+    /* Shot Diet / Map */
     .shot-diet { display: flex; flex-direction: column; gap: 0.3rem; }
     .shot-diet-header { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); }
     .diet-bar { height: 8px; width: 100%; background: #1e293b; border-radius: 999px; overflow: hidden; display: flex; }
@@ -179,35 +182,12 @@
     .lg-line { color: var(--accent); font-weight: 700; }
 
     /* ESPN Mock Draft Table */
-    .mock-table-wrap {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      overflow-x: auto;
-      display: none;
-    }
+    .mock-table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow-x: auto; display: none; }
     table.mock-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.88rem; }
-    .mock-table th {
-      background: #0b111e;
-      color: var(--muted);
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      padding: 0.9rem 1rem;
-      border-bottom: 1px solid var(--border);
-    }
+    .mock-table th { background: #0b111e; color: var(--muted); font-size: 0.72rem; text-transform: uppercase; padding: 0.9rem 1rem; border-bottom: 1px solid var(--border); }
     .mock-table td { padding: 0.85rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .mock-table tr.ita-row { background: rgba(245, 158, 11, 0.12); border-left: 4px solid var(--gold); }
-    .pick-num {
-      display: inline-block;
-      width: 28px;
-      height: 28px;
-      line-height: 28px;
-      text-align: center;
-      border-radius: 6px;
-      background: #1e293b;
-      font-weight: 800;
-      color: #fff;
-    }
+    .pick-num { display: inline-block; width: 28px; height: 28px; line-height: 28px; text-align: center; border-radius: 6px; background: #1e293b; font-weight: 800; color: #fff; }
     .ita-row .pick-num { background: var(--gold); color: #000; }
   </style>
 </head>
@@ -215,8 +195,8 @@
   <div class="container">
     <header>
       <div class="brand">
-        <h1>🇮🇹 NCAA Italiani 26/27 & ESPN Draft Hub</h1>
-        <p>Tutti i 30 italiani in Division I + Top 30 Prospetti NBA Draft 2027 (Proiezioni ESPN)</p>
+        <h1>🇮🇹 NCAA Italiani 26/27 & Advanced Hub</h1>
+        <p>Advanced Metrics, Percentili NCAA, Shot Diet & ESPN Draft Watch</p>
       </div>
       <div class="sync-pill">
         <span class="dot"></span>
@@ -224,35 +204,16 @@
       </div>
     </header>
 
-    <section class="kpi-strip">
-      <div class="kpi-card">
-        <div class="kpi-val" id="kpi-total">-</div>
-        <div class="kpi-lbl">Italiani in Division I</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-val" id="kpi-draft" style="color: var(--gold);">-</div>
-        <div class="kpi-lbl">Italiani Radar Draft '27</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-val" style="color: var(--accent);">#15 Suigo / #18 Sarr</div>
-        <div class="kpi-lbl">1° Giro ESPN Mock 2027</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-val" id="kpi-mock-count">Top 30</div>
-        <div class="kpi-lbl">Board ESPN 2027 Completo</div>
-      </div>
-    </section>
-
     <div class="controls">
       <div class="tabs">
-        <button class="tab active" onclick="setFilter('all', this)">🇮🇹 Tutti gli Italiani (30)</button>
-        <button class="tab gold-tab" onclick="setFilter('ita-draft', this)">🎯 Italiani Radar NBA</button>
+        <button class="tab active" onclick="setFilter('all', this)">🇮🇹 Tutti gli Italiani</button>
+        <button class="tab gold-tab" onclick="setFilter('ita-draft', this)">🎯 Radar NBA Draft</button>
         <button class="tab gold-tab" onclick="setFilter('espn-mock', this)">🏀 ESPN Top 30 Mock Draft 2027</button>
         <button class="tab" onclick="setFilter('G', this)">Guardie</button>
         <button class="tab" onclick="setFilter('F', this)">Ali</button>
         <button class="tab" onclick="setFilter('C', this)">Centri</button>
       </div>
-      <input type="text" id="search-input" class="search-box" placeholder="Cerca giocatore, college o conference..." oninput="render()">
+      <input type="text" id="search-input" class="search-box" placeholder="Cerca giocatore, college..." oninput="render()">
     </div>
 
     <main class="grid" id="players-container"></main>
@@ -289,9 +250,6 @@
 
         const dt = new Date(data.last_updated);
         document.getElementById('sync-time').textContent = `Sync: ${dt.toLocaleDateString('it-IT')} ${dt.toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'})}`;
-
-        document.getElementById('kpi-total').textContent = allPlayers.length;
-        document.getElementById('kpi-draft').textContent = allPlayers.filter(p => p.is_draft_prospect).length;
 
         render();
       } catch (e) {
@@ -351,6 +309,8 @@
       list.forEach(p => {
         const s = p.stats || {};
         const dp = p.draft_profile;
+        const adv = p.advanced || { off_rating: 112, def_rating: 98, pie: 14.5, ast_to_ratio: 1.8 };
+        const pct = p.percentiles || { scoring: 75, shooting: 70, rebounding: 65, defense: 80 };
         const sd = p.shot_diet || { rim_pct: 40, mid_pct: 20, three_pct: 40 };
         const lg = p.last_game;
 
@@ -389,9 +349,33 @@
             <div><div class="st-val" style="color:var(--accent)">${s.usage_rate ? s.usage_rate+'%' : '-'}</div><div class="st-lbl">USG%</div></div>
           </div>
 
+          <div class="advanced-section">
+            <div class="adv-title">Advanced Analytics & Percentili NCAA</div>
+            <div class="percentile-row">
+              <span>Scoring (Pctl)</span>
+              <div class="percentile-bar-bg"><div class="percentile-bar-fill" style="width: ${pct.scoring}%"></div></div>
+              <strong>${pct.scoring}th</strong>
+            </div>
+            <div class="percentile-row">
+              <span>Shooting (Pctl)</span>
+              <div class="percentile-bar-bg"><div class="percentile-bar-fill" style="width: ${pct.shooting}%"></div></div>
+              <strong>${pct.shooting}th</strong>
+            </div>
+            <div class="percentile-row">
+              <span>Defense (Pctl)</span>
+              <div class="percentile-bar-bg"><div class="percentile-bar-fill" style="width: ${pct.defense}%"></div></div>
+              <strong>${pct.defense}th</strong>
+            </div>
+            <div style="display:flex; justify-content:space-between; font-size:0.72rem; color:var(--muted); margin-top:0.2rem;">
+              <span>Off Rating: <strong>${adv.off_rating}</strong></span>
+              <span>Def Rating: <strong>${adv.def_rating}</strong></span>
+              <span>AST/TO: <strong>${adv.ast_to_ratio}</strong></span>
+            </div>
+          </div>
+
           <div class="shot-diet">
             <div class="shot-diet-header">
-              <span>Shot Diet: Ferro ${sd.rim_pct}%</span>
+              <span>Shot Diet / Mappa: Ferro ${sd.rim_pct}%</span>
               <span>Mid ${sd.mid_pct}%</span>
               <span>3PT ${sd.three_pct}%</span>
             </div>
