@@ -1,42 +1,343 @@
 {
-  "last_updated": "2026-11-03T14:30:00Z",
+  "last_updated": "2026-11-03T13:27:21Z",
   "season": "2026-27",
   "league": "NCAA Division I & NBA Draft 2027",
   "meta": {
-    "total_players": 30,
-    "source": "Synergy Sports / KenPom / ESPN Draft"
+    "total_players": 8,
+    "source": "Synergy Sports / KenPom / ESPN Draft",
+    "last_sync_status": "success"
   },
   "espn_mock_2027": [
-    { "pick": 1, "name": "Tyran Stokes", "position": "SF", "height": "6-7", "class": "Freshman", "team": "Kansas", "projected_team": "Sacramento Kings", "is_italian": false, "notes": "15 PTS, 7 REB all'esordio." },
-    { "pick": 2, "name": "Jordan Smith Jr.", "position": "PG/SG", "height": "6-2", "class": "Freshman", "team": "Arkansas", "projected_team": "Chicago Bulls", "is_italian": false, "notes": "Combo guard esplosiva." },
-    { "pick": 3, "name": "Caleb Holt", "position": "SG/PG", "height": "6-5", "class": "Freshman", "team": "Arizona", "projected_team": "Memphis Grizzlies", "is_italian": false, "notes": "Two-way guard di alto livello." },
-    { "pick": 4, "name": "Bruce Branch III", "position": "SG/SF", "height": "6-7", "class": "Freshman", "team": "BYU", "projected_team": "Houston Rockets", "is_italian": false, "notes": "Ala tiratrice." },
-    { "pick": 5, "name": "Stefan Joksimovic", "position": "PG", "height": "6-7", "class": "Intl", "team": "Baskonia", "projected_team": "Atlanta Hawks", "is_italian": false, "notes": "Playmaker alto." },
-    { "pick": 6, "name": "Braylon Mullins", "position": "SG", "height": "6-6", "class": "Sophomore", "team": "UConn", "projected_team": "New Orleans Pelicans", "is_italian": false, "notes": "Cecchino perimetrale." },
-    { "pick": 7, "name": "Thomas Haugh", "position": "SF/PF", "height": "6-9", "class": "Senior", "team": "Florida", "projected_team": "Memphis Grizzlies", "is_italian": false, "notes": "Energia pura." },
-    { "pick": 8, "name": "Jason Crowe Jr.", "position": "PG/SG", "height": "6-3", "class": "Freshman", "team": "Missouri", "projected_team": "Charlotte Hornets", "is_italian": false, "notes": "Realizzatore puro." },
-    { "pick": 9, "name": "Anthony Thompson", "position": "SF/PF", "height": "6-9", "class": "Freshman", "team": "Ohio State", "projected_team": "Washington Wizards", "is_italian": false, "notes": "Ala moderna." },
-    { "pick": 10, "name": "Cameron Williams", "position": "F/C", "height": "6-11", "class": "Freshman", "team": "Duke", "projected_team": "Houston Rockets", "is_italian": false, "notes": "Lungo mobile." },
-    { "pick": 11, "name": "Caleb Gaskins", "position": "PF", "height": "6-8", "class": "Freshman", "team": "Miami", "projected_team": "Lottery", "is_italian": false, "notes": "Fisico imponente." },
-    { "pick": 12, "name": "Miikka Muurinen", "position": "PF", "height": "6-10", "class": "Freshman", "team": "Arkansas", "projected_team": "Lottery", "is_italian": false, "notes": "Stretch big." },
-    { "pick": 13, "name": "Austin Goosby", "position": "PG/SG", "height": "6-5", "class": "Freshman", "team": "Texas", "projected_team": "Lottery", "is_italian": false, "notes": "Playmaker." },
-    { "pick": 14, "name": "Motiejus Krivas", "position": "C", "height": "7-2", "class": "Senior", "team": "Arizona", "projected_team": "Lottery", "is_italian": false, "notes": "Centro lituano." },
-    { "pick": 15, "name": "Luigi Suigo", "position": "C", "height": "7-2", "class": "Freshman", "team": "Villanova", "projected_team": "Mid-First Round (#15)", "is_italian": true, "notes": "🇮🇹 218 cm, 7'5.5\" wingspan, tiro e stoppate." },
-    { "pick": 16, "name": "Matt Able", "position": "SG", "height": "6-5", "class": "Sophomore", "team": "North Carolina", "projected_team": "First Round", "is_italian": false, "notes": "Esterno atletico." },
-    { "pick": 17, "name": "Alex Condon", "position": "PF/C", "height": "6-11", "class": "Senior", "team": "Florida", "projected_team": "First Round", "is_italian": false, "notes": "Lungo australiano." },
-    { "pick": 18, "name": "Dame Sarr", "position": "SG", "height": "6-8", "class": "Sophomore", "team": "Duke", "projected_team": "Mid-First Round (#18)", "is_italian": true, "notes": "🇮🇹 16 PTS con il 100% al debutto a Duke." },
-    { "pick": 19, "name": "Cameron Houindo", "position": "PF", "height": "6-10", "class": "Intl", "team": "Cedevita Olimpija", "projected_team": "First Round", "is_italian": false, "notes": "Ala francese." },
-    { "pick": 20, "name": "Christian Collins", "position": "SF", "height": "6-8", "class": "Freshman", "team": "USC", "projected_team": "First Round", "is_italian": false, "notes": "Wing fluida." },
-    { "pick": 21, "name": "Babatunde Oladotun", "position": "SF", "height": "6-9", "class": "Freshman", "team": "Maryland", "projected_team": "First Round", "is_italian": false, "notes": "Freshman altissimo." },
-    { "pick": 22, "name": "Jaxon Richardson", "position": "SF", "height": "6-6", "class": "Freshman", "team": "Alabama", "projected_team": "First Round", "is_italian": false, "notes": "Atletismo verticale." },
-    { "pick": 23, "name": "Brandon McCoy", "position": "SG", "height": "6-4", "class": "Freshman", "team": "Michigan", "projected_team": "First Round", "is_italian": false, "notes": "Guardia two-way." },
-    { "pick": 24, "name": "Hugo Yimga-Moukouri", "position": "SF", "height": "6-8", "class": "Intl", "team": "Nanterre", "projected_team": "First Round", "is_italian": false, "notes": "Prospetto LNB." },
-    { "pick": 25, "name": "Sayon Keita", "position": "C", "height": "6-11", "class": "Freshman", "team": "North Carolina", "projected_team": "Late First", "is_italian": false, "notes": "Rim protector." },
-    { "pick": 26, "name": "Amari Allen", "position": "SF", "height": "6-7", "class": "Sophomore", "team": "Alabama", "projected_team": "Late First", "is_italian": false, "notes": "Slasher." },
-    { "pick": 27, "name": "Ivan Kharchenkov", "position": "SF", "height": "6-6", "class": "Sophomore", "team": "Arizona", "projected_team": "Late First", "is_italian": false, "notes": "Ex Bayern." },
-    { "pick": 28, "name": "Patrick Ngongba II", "position": "C", "height": "6-11", "class": "Sophomore", "team": "Duke", "projected_team": "Late First", "is_italian": false, "notes": "Ancora difensiva." },
-    { "pick": 29, "name": "Juke Harris", "position": "SG", "height": "6-6", "class": "Sophomore", "team": "Tennessee", "projected_team": "Late First", "is_italian": false, "notes": "Guardia dinamica." },
-    { "pick": 30, "name": "Tyler Tanner", "position": "PG", "height": "6-1", "class": "Junior", "team": "Vanderbilt", "projected_team": "Late First", "is_italian": false, "notes": "Playmaker rapido." }
+    {
+      "pick": 1,
+      "name": "Tyran Stokes",
+      "position": "SF",
+      "height": "6-7",
+      "class": "Freshman",
+      "team": "Kansas",
+      "projected_team": "Sacramento Kings",
+      "is_italian": false,
+      "notes": "15 PTS, 7 REB all'esordio."
+    },
+    {
+      "pick": 2,
+      "name": "Jordan Smith Jr.",
+      "position": "PG/SG",
+      "height": "6-2",
+      "class": "Freshman",
+      "team": "Arkansas",
+      "projected_team": "Chicago Bulls",
+      "is_italian": false,
+      "notes": "Combo guard esplosiva."
+    },
+    {
+      "pick": 3,
+      "name": "Caleb Holt",
+      "position": "SG/PG",
+      "height": "6-5",
+      "class": "Freshman",
+      "team": "Arizona",
+      "projected_team": "Memphis Grizzlies",
+      "is_italian": false,
+      "notes": "Two-way guard di alto livello."
+    },
+    {
+      "pick": 4,
+      "name": "Bruce Branch III",
+      "position": "SG/SF",
+      "height": "6-7",
+      "class": "Freshman",
+      "team": "BYU",
+      "projected_team": "Houston Rockets",
+      "is_italian": false,
+      "notes": "Ala tiratrice."
+    },
+    {
+      "pick": 5,
+      "name": "Stefan Joksimovic",
+      "position": "PG",
+      "height": "6-7",
+      "class": "Intl",
+      "team": "Baskonia",
+      "projected_team": "Atlanta Hawks",
+      "is_italian": false,
+      "notes": "Playmaker alto."
+    },
+    {
+      "pick": 6,
+      "name": "Braylon Mullins",
+      "position": "SG",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "UConn",
+      "projected_team": "New Orleans Pelicans",
+      "is_italian": false,
+      "notes": "Cecchino perimetrale."
+    },
+    {
+      "pick": 7,
+      "name": "Thomas Haugh",
+      "position": "SF/PF",
+      "height": "6-9",
+      "class": "Senior",
+      "team": "Florida",
+      "projected_team": "Memphis Grizzlies",
+      "is_italian": false,
+      "notes": "Energia pura."
+    },
+    {
+      "pick": 8,
+      "name": "Jason Crowe Jr.",
+      "position": "PG/SG",
+      "height": "6-3",
+      "class": "Freshman",
+      "team": "Missouri",
+      "projected_team": "Charlotte Hornets",
+      "is_italian": false,
+      "notes": "Realizzatore puro."
+    },
+    {
+      "pick": 9,
+      "name": "Anthony Thompson",
+      "position": "SF/PF",
+      "height": "6-9",
+      "class": "Freshman",
+      "team": "Ohio State",
+      "projected_team": "Washington Wizards",
+      "is_italian": false,
+      "notes": "Ala moderna."
+    },
+    {
+      "pick": 10,
+      "name": "Cameron Williams",
+      "position": "F/C",
+      "height": "6-11",
+      "class": "Freshman",
+      "team": "Duke",
+      "projected_team": "Houston Rockets",
+      "is_italian": false,
+      "notes": "Lungo mobile."
+    },
+    {
+      "pick": 11,
+      "name": "Caleb Gaskins",
+      "position": "PF",
+      "height": "6-8",
+      "class": "Freshman",
+      "team": "Miami",
+      "projected_team": "Lottery",
+      "is_italian": false,
+      "notes": "Fisico imponente."
+    },
+    {
+      "pick": 12,
+      "name": "Miikka Muurinen",
+      "position": "PF",
+      "height": "6-10",
+      "class": "Freshman",
+      "team": "Arkansas",
+      "projected_team": "Lottery",
+      "is_italian": false,
+      "notes": "Stretch big."
+    },
+    {
+      "pick": 13,
+      "name": "Austin Goosby",
+      "position": "PG/SG",
+      "height": "6-5",
+      "class": "Freshman",
+      "team": "Texas",
+      "projected_team": "Lottery",
+      "is_italian": false,
+      "notes": "Playmaker."
+    },
+    {
+      "pick": 14,
+      "name": "Motiejus Krivas",
+      "position": "C",
+      "height": "7-2",
+      "class": "Senior",
+      "team": "Arizona",
+      "projected_team": "Lottery",
+      "is_italian": false,
+      "notes": "Centro lituano."
+    },
+    {
+      "pick": 15,
+      "name": "Luigi Suigo",
+      "position": "C",
+      "height": "7-2",
+      "class": "Freshman",
+      "team": "Villanova",
+      "projected_team": "Mid-First Round (#15)",
+      "is_italian": true,
+      "notes": "🇮🇹 218 cm, 7'5.5\" wingspan, tiro e stoppate."
+    },
+    {
+      "pick": 16,
+      "name": "Matt Able",
+      "position": "SG",
+      "height": "6-5",
+      "class": "Sophomore",
+      "team": "North Carolina",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Esterno atletico."
+    },
+    {
+      "pick": 17,
+      "name": "Alex Condon",
+      "position": "PF/C",
+      "height": "6-11",
+      "class": "Senior",
+      "team": "Florida",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Lungo australiano."
+    },
+    {
+      "pick": 18,
+      "name": "Dame Sarr",
+      "position": "SG",
+      "height": "6-8",
+      "class": "Sophomore",
+      "team": "Duke",
+      "projected_team": "Mid-First Round (#18)",
+      "is_italian": true,
+      "notes": "🇮🇹 16 PTS con il 100% al debutto a Duke."
+    },
+    {
+      "pick": 19,
+      "name": "Cameron Houindo",
+      "position": "PF",
+      "height": "6-10",
+      "class": "Intl",
+      "team": "Cedevita Olimpija",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Ala francese."
+    },
+    {
+      "pick": 20,
+      "name": "Christian Collins",
+      "position": "SF",
+      "height": "6-8",
+      "class": "Freshman",
+      "team": "USC",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Wing fluida."
+    },
+    {
+      "pick": 21,
+      "name": "Babatunde Oladotun",
+      "position": "SF",
+      "height": "6-9",
+      "class": "Freshman",
+      "team": "Maryland",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Freshman altissimo."
+    },
+    {
+      "pick": 22,
+      "name": "Jaxon Richardson",
+      "position": "SF",
+      "height": "6-6",
+      "class": "Freshman",
+      "team": "Alabama",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Atletismo verticale."
+    },
+    {
+      "pick": 23,
+      "name": "Brandon McCoy",
+      "position": "SG",
+      "height": "6-4",
+      "class": "Freshman",
+      "team": "Michigan",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Guardia two-way."
+    },
+    {
+      "pick": 24,
+      "name": "Hugo Yimga-Moukouri",
+      "position": "SF",
+      "height": "6-8",
+      "class": "Intl",
+      "team": "Nanterre",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Prospetto LNB."
+    },
+    {
+      "pick": 25,
+      "name": "Sayon Keita",
+      "position": "C",
+      "height": "6-11",
+      "class": "Freshman",
+      "team": "North Carolina",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Rim protector."
+    },
+    {
+      "pick": 26,
+      "name": "Amari Allen",
+      "position": "SF",
+      "height": "6-7",
+      "class": "Sophomore",
+      "team": "Alabama",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Slasher."
+    },
+    {
+      "pick": 27,
+      "name": "Ivan Kharchenkov",
+      "position": "SF",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "Arizona",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Ex Bayern."
+    },
+    {
+      "pick": 28,
+      "name": "Patrick Ngongba II",
+      "position": "C",
+      "height": "6-11",
+      "class": "Sophomore",
+      "team": "Duke",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Ancora difensiva."
+    },
+    {
+      "pick": 29,
+      "name": "Juke Harris",
+      "position": "SG",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "Tennessee",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Guardia dinamica."
+    },
+    {
+      "pick": 30,
+      "name": "Tyler Tanner",
+      "position": "PG",
+      "height": "6-1",
+      "class": "Junior",
+      "team": "Vanderbilt",
+      "projected_team": "Late First",
+      "is_italian": false,
+      "notes": "Playmaker rapido."
+    }
   ],
   "players": [
     {
@@ -52,12 +353,49 @@
       "hometown": "Tradate (VA)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 15, "tier": "ESPN First Round (#15)", "archetype": "Stretch Rim Protector", "wingspan": "7-5.5", "scouting": "Alla #15 nel Mock Draft ESPN. 218 cm con mano morbida da tre e protezione del ferro." },
-      "stats": { "games_played": 1, "minutes_per_game": 25.0, "points_per_game": 7.0, "rebounds_per_game": 5.0, "assists_per_game": 0.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 58.0, "usage_rate": 16.5 },
-      "advanced": { "off_rating": 115.2, "def_rating": 94.0, "pie": 16.8, "ast_to_ratio": 0.5 },
-      "percentiles": { "scoring": 72, "shooting": 78, "rebounding": 85, "defense": 92 },
-      "shot_diet": { "rim_pct": 65, "mid_pct": 10, "three_pct": 25 },
-      "last_game": { "opponent": "Notre Dame", "date": "2026-11-01", "result": "L 72-74", "points": 7, "rebounds": 5, "minutes": 25 }
+      "draft_profile": {
+        "espn_rank": 15,
+        "tier": "ESPN First Round (#15)",
+        "archetype": "Stretch Rim Protector",
+        "wingspan": "7-5.5",
+        "scouting": "Alla #15 nel Mock Draft ESPN. 218 cm con mano morbida da tre e protezione del ferro."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 25.0,
+        "points_per_game": 7.0,
+        "rebounds_per_game": 5.0,
+        "assists_per_game": 0.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 58.0,
+        "usage_rate": 16.5
+      },
+      "advanced": {
+        "off_rating": 115.2,
+        "def_rating": 94.0,
+        "pie": 16.8,
+        "ast_to_ratio": 0.5
+      },
+      "percentiles": {
+        "scoring": 72,
+        "shooting": 78,
+        "rebounding": 85,
+        "defense": 92
+      },
+      "shot_diet": {
+        "rim_pct": 65,
+        "mid_pct": 10,
+        "three_pct": 25
+      },
+      "last_game": {
+        "opponent": "Notre Dame",
+        "date": "2026-11-01",
+        "result": "L 72-74",
+        "points": 7,
+        "rebounds": 5,
+        "minutes": 25
+      }
     },
     {
       "id": "dame-sarr",
@@ -72,12 +410,50 @@
       "hometown": "Oderzo (TV)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 18, "tier": "ESPN First Round (#18)", "archetype": "Athletic Two-Way Wing", "wingspan": "6-11.75", "scouting": "Alla #18 nel Mock Draft ESPN. 16 punti con il 100% dal campo all'esordio contro Army." },
-      "stats": { "games_played": 1, "minutes_per_game": 21.0, "points_per_game": 16.0, "rebounds_per_game": 4.0, "assists_per_game": 3.0, "field_goal_pct": 100.0, "three_point_pct": 0.0, "true_shooting_pct": 104.7, "usage_rate": 24.5 },
-      "advanced": { "off_rating": 128.0, "def_rating": 91.5, "pie": 21.4, "ast_to_ratio": 3.0 },
-      "percentiles": { "scoring": 94, "shooting": 85, "rebounding": 70, "defense": 88 },
-      "shot_diet": { "rim_pct": 70, "mid_pct": 30, "three_pct": 0 },
-      "last_game": { "opponent": "Army", "date": "2026-11-02", "result": "W 84-50", "points": 16, "rebounds": 4, "assists": 3, "minutes": 21 }
+      "draft_profile": {
+        "espn_rank": 18,
+        "tier": "ESPN First Round (#18)",
+        "archetype": "Athletic Two-Way Wing",
+        "wingspan": "6-11.75",
+        "scouting": "Alla #18 nel Mock Draft ESPN. 16 punti con il 100% dal campo all'esordio contro Army."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 21.0,
+        "points_per_game": 16.0,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 3.0,
+        "field_goal_pct": 100.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 104.7,
+        "usage_rate": 24.5
+      },
+      "advanced": {
+        "off_rating": 128.0,
+        "def_rating": 91.5,
+        "pie": 21.4,
+        "ast_to_ratio": 3.0
+      },
+      "percentiles": {
+        "scoring": 94,
+        "shooting": 85,
+        "rebounding": 70,
+        "defense": 88
+      },
+      "shot_diet": {
+        "rim_pct": 70,
+        "mid_pct": 30,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "Army",
+        "date": "2026-11-02",
+        "result": "W 84-50",
+        "points": 16,
+        "rebounds": 4,
+        "assists": 3,
+        "minutes": 21
+      }
     },
     {
       "id": "saliou-niang",
@@ -92,11 +468,41 @@
       "hometown": "Lecco",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 38, "tier": "First / Second Round Radar", "archetype": "Lockdown Wing & Slasher", "wingspan": "6-11", "scouting": "Arrivato dalla Virtus Bologna con buyout e via libera NCAA." },
-      "stats": { "games_played": 1, "minutes_per_game": 24.0, "points_per_game": 11.0, "rebounds_per_game": 6.0, "assists_per_game": 2.0, "field_goal_pct": 52.5, "three_point_pct": 33.3, "true_shooting_pct": 59.5, "usage_rate": 20.5 },
-      "advanced": { "off_rating": 111.0, "def_rating": 93.0, "pie": 15.2, "ast_to_ratio": 1.0 },
-      "percentiles": { "scoring": 80, "shooting": 68, "rebounding": 78, "defense": 90 },
-      "shot_diet": { "rim_pct": 60, "mid_pct": 15, "three_pct": 25 }
+      "draft_profile": {
+        "espn_rank": 38,
+        "tier": "First / Second Round Radar",
+        "archetype": "Lockdown Wing & Slasher",
+        "wingspan": "6-11",
+        "scouting": "Arrivato dalla Virtus Bologna con buyout e via libera NCAA."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 24.0,
+        "points_per_game": 11.0,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 2.0,
+        "field_goal_pct": 52.5,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 59.5,
+        "usage_rate": 20.5
+      },
+      "advanced": {
+        "off_rating": 111.0,
+        "def_rating": 93.0,
+        "pie": 15.2,
+        "ast_to_ratio": 1.0
+      },
+      "percentiles": {
+        "scoring": 80,
+        "shooting": 68,
+        "rebounding": 78,
+        "defense": 90
+      },
+      "shot_diet": {
+        "rim_pct": 60,
+        "mid_pct": 15,
+        "three_pct": 25
+      }
     },
     {
       "id": "quinn-ellis",
@@ -111,11 +517,41 @@
       "hometown": "Sheffield (Formazione Italiana)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 45, "tier": "NBA Ready / Floor General", "archetype": "Jumbo Playmaker", "wingspan": "6-7", "scouting": "Alla corte di Rick Pitino con accordo NIL di primo piano." },
-      "stats": { "games_played": 1, "minutes_per_game": 32.0, "points_per_game": 13.0, "rebounds_per_game": 6.0, "assists_per_game": 7.5, "field_goal_pct": 48.0, "three_point_pct": 38.5, "true_shooting_pct": 60.5, "usage_rate": 23.0 },
-      "advanced": { "off_rating": 119.5, "def_rating": 96.0, "pie": 18.9, "ast_to_ratio": 3.75 },
-      "percentiles": { "scoring": 84, "shooting": 82, "rebounding": 75, "defense": 79 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 20, "three_pct": 40 }
+      "draft_profile": {
+        "espn_rank": 45,
+        "tier": "NBA Ready / Floor General",
+        "archetype": "Jumbo Playmaker",
+        "wingspan": "6-7",
+        "scouting": "Alla corte di Rick Pitino con accordo NIL di primo piano."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 32.0,
+        "points_per_game": 13.0,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 7.5,
+        "field_goal_pct": 48.0,
+        "three_point_pct": 38.5,
+        "true_shooting_pct": 60.5,
+        "usage_rate": 23.0
+      },
+      "advanced": {
+        "off_rating": 119.5,
+        "def_rating": 96.0,
+        "pie": 18.9,
+        "ast_to_ratio": 3.75
+      },
+      "percentiles": {
+        "scoring": 84,
+        "shooting": 82,
+        "rebounding": 75,
+        "defense": 79
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 20,
+        "three_pct": 40
+      }
     },
     {
       "id": "andrew-osasuyi",
@@ -130,12 +566,49 @@
       "hometown": "Magenta (MI)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 52, "tier": "SEC Breakout Sleeper", "archetype": "Rim Runner & Shot Blocker", "wingspan": "7-2", "scouting": "A Georgia in SEC: 3 stoppate in 11 minuti all'esordio contro NC Central." },
-      "stats": { "games_played": 1, "minutes_per_game": 11.0, "points_per_game": 4.0, "rebounds_per_game": 4.0, "assists_per_game": 0.0, "field_goal_pct": 66.7, "three_point_pct": 0.0, "true_shooting_pct": 66.7, "usage_rate": 16.0 },
-      "advanced": { "off_rating": 108.0, "def_rating": 89.0, "pie": 14.0, "ast_to_ratio": 0.0 },
-      "percentiles": { "scoring": 60, "shooting": 50, "rebounding": 82, "defense": 95 },
-      "shot_diet": { "rim_pct": 90, "mid_pct": 10, "three_pct": 0 },
-      "last_game": { "opponent": "NC Central", "date": "2026-11-02", "result": "W 78-62", "points": 4, "rebounds": 4, "minutes": 11 }
+      "draft_profile": {
+        "espn_rank": 52,
+        "tier": "SEC Breakout Sleeper",
+        "archetype": "Rim Runner & Shot Blocker",
+        "wingspan": "7-2",
+        "scouting": "A Georgia in SEC: 3 stoppate in 11 minuti all'esordio contro NC Central."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 11.0,
+        "points_per_game": 4.0,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 0.0,
+        "field_goal_pct": 66.7,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 66.7,
+        "usage_rate": 16.0
+      },
+      "advanced": {
+        "off_rating": 108.0,
+        "def_rating": 89.0,
+        "pie": 14.0,
+        "ast_to_ratio": 0.0
+      },
+      "percentiles": {
+        "scoring": 60,
+        "shooting": 50,
+        "rebounding": 82,
+        "defense": 95
+      },
+      "shot_diet": {
+        "rim_pct": 90,
+        "mid_pct": 10,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "NC Central",
+        "date": "2026-11-02",
+        "result": "W 78-62",
+        "points": 4,
+        "rebounds": 4,
+        "minutes": 11
+      }
     },
     {
       "id": "diego-garavaglia",
@@ -150,11 +623,41 @@
       "hometown": "Rho (MI)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 58, "tier": "Big Ten Prospect", "archetype": "Two-Way Wing", "wingspan": "6-11", "scouting": "Arrivato da Ulm in Germania." },
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 5.0, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 45.0, "three_point_pct": 35.0, "true_shooting_pct": 56.0, "usage_rate": 15.0 },
-      "advanced": { "off_rating": 105.0, "def_rating": 97.0, "pie": 12.1, "ast_to_ratio": 1.0 },
-      "percentiles": { "scoring": 65, "shooting": 72, "rebounding": 60, "defense": 75 },
-      "shot_diet": { "rim_pct": 45, "mid_pct": 15, "three_pct": 40 }
+      "draft_profile": {
+        "espn_rank": 58,
+        "tier": "Big Ten Prospect",
+        "archetype": "Two-Way Wing",
+        "wingspan": "6-11",
+        "scouting": "Arrivato da Ulm in Germania."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 45.0,
+        "three_point_pct": 35.0,
+        "true_shooting_pct": 56.0,
+        "usage_rate": 15.0
+      },
+      "advanced": {
+        "off_rating": 105.0,
+        "def_rating": 97.0,
+        "pie": 12.1,
+        "ast_to_ratio": 1.0
+      },
+      "percentiles": {
+        "scoring": 65,
+        "shooting": 72,
+        "rebounding": 60,
+        "defense": 75
+      },
+      "shot_diet": {
+        "rim_pct": 45,
+        "mid_pct": 15,
+        "three_pct": 40
+      }
     },
     {
       "id": "elisee-assui",
@@ -169,11 +672,41 @@
       "hometown": "Varese",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 65, "tier": "ACC Prospect Watch", "archetype": "Physical 3&D Wing", "wingspan": "6-9", "scouting": "Fisico granitico da Varese a FSU." },
-      "stats": { "games_played": 1, "minutes_per_game": 12.0, "points_per_game": 0.0, "rebounds_per_game": 2.0, "assists_per_game": 1.0, "field_goal_pct": 0.0, "three_point_pct": 0.0, "true_shooting_pct": 0.0, "usage_rate": 12.0 },
-      "advanced": { "off_rating": 98.0, "def_rating": 95.0, "pie": 10.0, "ast_to_ratio": 1.0 },
-      "percentiles": { "scoring": 40, "shooting": 45, "rebounding": 55, "defense": 82 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 10, "three_pct": 50 }
+      "draft_profile": {
+        "espn_rank": 65,
+        "tier": "ACC Prospect Watch",
+        "archetype": "Physical 3&D Wing",
+        "wingspan": "6-9",
+        "scouting": "Fisico granitico da Varese a FSU."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 12.0,
+        "points_per_game": 0.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 0.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 0.0,
+        "usage_rate": 12.0
+      },
+      "advanced": {
+        "off_rating": 98.0,
+        "def_rating": 95.0,
+        "pie": 10.0,
+        "ast_to_ratio": 1.0
+      },
+      "percentiles": {
+        "scoring": 40,
+        "shooting": 45,
+        "rebounding": 55,
+        "defense": 82
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 10,
+        "three_pct": 50
+      }
     },
     {
       "id": "emmanuel-innocenti",
@@ -188,11 +721,41 @@
       "hometown": "Riano (RM)",
       "draft_eligible": 2027,
       "is_draft_prospect": true,
-      "draft_profile": { "espn_rank": 70, "tier": "Senior Two-Way", "archetype": "Lockdown Defender", "wingspan": "6-9", "scouting": "Trasferito da Gonzaga ad Arizona State in Big 12." },
-      "stats": { "games_played": 1, "minutes_per_game": 17.0, "points_per_game": 5.0, "rebounds_per_game": 1.0, "assists_per_game": 1.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 62.5, "usage_rate": 14.5 },
-      "advanced": { "off_rating": 110.0, "def_rating": 92.0, "pie": 13.5, "ast_to_ratio": 1.0 },
-      "percentiles": { "scoring": 62, "shooting": 70, "rebounding": 45, "defense": 94 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 15, "three_pct": 45 }
+      "draft_profile": {
+        "espn_rank": 70,
+        "tier": "Senior Two-Way",
+        "archetype": "Lockdown Defender",
+        "wingspan": "6-9",
+        "scouting": "Trasferito da Gonzaga ad Arizona State in Big 12."
+      },
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 17.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 1.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 62.5,
+        "usage_rate": 14.5
+      },
+      "advanced": {
+        "off_rating": 110.0,
+        "def_rating": 92.0,
+        "pie": 13.5,
+        "ast_to_ratio": 1.0
+      },
+      "percentiles": {
+        "scoring": 62,
+        "shooting": 70,
+        "rebounding": 45,
+        "defense": 94
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 15,
+        "three_pct": 45
+      }
     }
   ]
 }
