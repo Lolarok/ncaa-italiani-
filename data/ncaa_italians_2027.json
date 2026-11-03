@@ -1,43 +1,344 @@
 {
-  "last_updated": "2026-11-03T14:10:00Z",
+  "last_updated": "2026-11-03T13:13:28Z",
   "season": "2026-27",
   "league": "NCAA Division I & NBA Draft 2027",
   "meta": {
-    "total_players": 30,
+    "total_players": 32,
     "espn_mock_count": 30,
-    "source": "NCAA Official Box Scores / ESPN Draft (Givony & Woo) / BasketballNcaa"
+    "source": "NCAA Official Box Scores / ESPN Draft (Givony & Woo) / BasketballNcaa",
+    "last_sync_status": "success"
   },
   "espn_mock_2027": [
-    { "pick": 1, "name": "Tyran Stokes", "position": "SF", "height": "6-7", "class": "Freshman", "team": "Kansas", "projected_team": "Sacramento Kings", "is_italian": false, "notes": "15 PTS, 7 REB in 25' all'esordio contro Fordham." },
-    { "pick": 2, "name": "Jordan Smith Jr.", "position": "PG/SG", "height": "6-2", "class": "Freshman", "team": "Arkansas", "projected_team": "Chicago Bulls", "is_italian": false, "notes": "Combo guard esplosiva, candidato alternativo alla #1." },
-    { "pick": 3, "name": "Caleb Holt", "position": "SG/PG", "height": "6-5", "class": "Freshman", "team": "Arizona", "projected_team": "Memphis Grizzlies", "is_italian": false, "notes": "Two-way guard già pronta fisicamente per l'impatto immediato." },
-    { "pick": 4, "name": "Bruce Branch III", "position": "SG/SF", "height": "6-7", "class": "Freshman", "team": "BYU", "projected_team": "Houston Rockets (via BKN)", "is_italian": false, "notes": "Wing di taglia con altissimo upside da tiratore." },
-    { "pick": 5, "name": "Stefan Joksimovic", "position": "PG", "height": "6-7", "class": "Intl", "team": "Baskonia (Spain)", "projected_team": "Atlanta Hawks (via NOP)", "is_italian": false, "notes": "Playmaker di 201 cm, MVP dell'Europeo U18 a Trento." },
-    { "pick": 6, "name": "Braylon Mullins", "position": "SG", "height": "6-6", "class": "Sophomore", "team": "UConn", "projected_team": "New Orleans Pelicans (via MIL)", "is_italian": false, "notes": "Tiratore d'élite nel sistema di Dan Hurley." },
-    { "pick": 7, "name": "Thomas Haugh", "position": "SF/PF", "height": "6-9", "class": "Senior", "team": "Florida", "projected_team": "Memphis Grizzlies (via UTA)", "is_italian": false, "notes": "Combo-forward versatile ad altissima energia su due lati." },
-    { "pick": 8, "name": "Jason Crowe Jr.", "position": "PG/SG", "height": "6-3", "class": "Freshman", "team": "Missouri", "projected_team": "Charlotte Hornets (via DAL)", "is_italian": false, "notes": "Shot-maker puro con istinti offensivi naturali." },
-    { "pick": 9, "name": "Anthony Thompson", "position": "SF/PF", "height": "6-9", "class": "Freshman", "team": "Ohio State", "projected_team": "Washington Wizards", "is_italian": false, "notes": "Ala moderna con grande apertura alare e tiro perimetrale." },
-    { "pick": 10, "name": "Cameron Williams", "position": "F/C", "height": "6-11", "class": "Freshman", "team": "Duke", "projected_team": "Houston Rockets (via PHX)", "is_italian": false, "notes": "Lungo mobile e coordinato, gran potenziale face-up." },
-    { "pick": 11, "name": "Caleb Gaskins", "position": "PF", "height": "6-8", "class": "Freshman", "team": "Miami", "projected_team": "Lottery Pick", "is_italian": false, "notes": "Ala forte fisica e versatile." },
-    { "pick": 12, "name": "Miikka Muurinen", "position": "PF", "height": "6-10", "class": "Freshman", "team": "Arkansas", "projected_team": "Lottery Pick", "is_italian": false, "notes": "Stretch-big finlandese dotato di mobilità e tiro da fuori." },
-    { "pick": 13, "name": "Austin Goosby", "position": "PG/SG", "height": "6-5", "class": "Freshman", "team": "Texas", "projected_team": "Lottery Pick", "is_italian": false, "notes": "Guardia alta con letture di pick-and-roll avanzate." },
-    { "pick": 14, "name": "Motiejus Krivas", "position": "C", "height": "7-2", "class": "Senior", "team": "Arizona", "projected_team": "Lottery Pick", "is_italian": false, "notes": "Centro lituano solido a rimbalzo e nella protezione del pitturato." },
-    { "pick": 15, "name": "Luigi Suigo", "position": "C", "height": "7-2", "class": "Freshman", "team": "Villanova", "projected_team": "Mid-First Round (#15)", "is_italian": true, "notes": "🇮🇹 Prospetto azzurro più alto sul tabellone ESPN: 218 cm, 7'5.5\" di wingspan e tiro da fuori." },
-    { "pick": 16, "name": "Matt Able", "position": "SG", "height": "6-5", "class": "Sophomore", "team": "North Carolina", "projected_team": "Mid-First Round", "is_italian": false, "notes": "Esterno atletico in rampa di lancio al secondo anno a UNC." },
-    { "pick": 17, "name": "Alex Condon", "position": "PF/C", "height": "6-11", "class": "Senior", "team": "Florida", "projected_team": "Mid-First Round", "is_italian": false, "notes": "Lungo australiano solido, passatore dal post e rim protector." },
-    { "pick": 18, "name": "Dame Sarr", "position": "SG", "height": "6-8", "class": "Sophomore", "team": "Duke", "projected_team": "Mid-First Round (#18)", "is_italian": true, "notes": "🇮🇹 Stabile al primo giro ESPN al secondo anno a Duke; 16 punti con il 100% dal campo al debutto." },
-    { "pick": 19, "name": "Cameron Houindo", "position": "PF", "height": "6-10", "class": "Intl", "team": "Cedevita Olimpija", "projected_team": "First Round", "is_italian": false, "notes": "Ala francese esplosiva sopra il ferro." },
-    { "pick": 20, "name": "Christian Collins", "position": "SF", "height": "6-8", "class": "Freshman", "team": "USC", "projected_team": "First Round", "is_italian": false, "notes": "Wing fluida con grande potenziale su due metà campo." },
-    { "pick": 21, "name": "Babatunde Oladotun", "position": "SF", "height": "6-9", "class": "Freshman", "team": "Maryland", "projected_team": "First Round", "is_italian": false, "notes": "Uno dei freshmen più giovani della classe con taglia d'élite." },
-    { "pick": 22, "name": "Jaxon Richardson", "position": "SF", "height": "6-6", "class": "Freshman", "team": "Alabama", "projected_team": "First Round", "is_italian": false, "notes": "Figlio di Jason Richardson, atletismo verticale fuori scala." },
-    { "pick": 23, "name": "Brandon McCoy", "position": "SG", "height": "6-4", "class": "Freshman", "team": "Michigan", "projected_team": "First Round", "is_italian": false, "notes": "Guardia two-way con grande pressione sulla palla." },
-    { "pick": 24, "name": "Hugo Yimga-Moukouri", "position": "SF", "height": "6-8", "class": "Intl", "team": "Nanterre (France)", "projected_team": "First Round", "is_italian": false, "notes": "Ala fisica francese già produttiva in LNB." },
-    { "pick": 25, "name": "Sayon Keita", "position": "C", "height": "6-11", "class": "Freshman", "team": "North Carolina", "projected_team": "Late First Round", "is_italian": false, "notes": "Rim protector mobile e intimidatore d'area." },
-    { "pick": 26, "name": "Amari Allen", "position": "SF", "height": "6-7", "class": "Sophomore", "team": "Alabama", "projected_team": "Late First Round", "is_italian": false, "notes": "Slasher potente nel sistema ad alto ritmo di Nate Oats." },
-    { "pick": 27, "name": "Ivan Kharchenkov", "position": "SF", "height": "6-6", "class": "Sophomore", "team": "Arizona", "projected_team": "Late First Round", "is_italian": false, "notes": "Esterno tedesco solido e maturo, ex Bayern Monaco." },
-    { "pick": 28, "name": "Patrick Ngongba II", "position": "C", "height": "6-11", "class": "Sophomore", "team": "Duke", "projected_team": "Late First Round", "is_italian": false, "notes": "Ancora difensiva e passatore intelligente dal post alto." },
-    { "pick": 29, "name": "Juke Harris", "position": "SG", "height": "6-6", "class": "Sophomore", "team": "Tennessee", "projected_team": "Late First Round", "is_italian": false, "notes": "Guardia dinamica in uscita dai blocchi." },
-    { "pick": 30, "name": "Tyler Tanner", "position": "PG", "height": "6-1", "class": "Junior", "team": "Vanderbilt", "projected_team": "Late First Round", "is_italian": false, "notes": "Playmaker rapido con ottime percentuali al tiro." }
+    {
+      "pick": 1,
+      "name": "Tyran Stokes",
+      "position": "SF",
+      "height": "6-7",
+      "class": "Freshman",
+      "team": "Kansas",
+      "projected_team": "Sacramento Kings",
+      "is_italian": false,
+      "notes": "15 PTS, 7 REB in 25' all'esordio contro Fordham."
+    },
+    {
+      "pick": 2,
+      "name": "Jordan Smith Jr.",
+      "position": "PG/SG",
+      "height": "6-2",
+      "class": "Freshman",
+      "team": "Arkansas",
+      "projected_team": "Chicago Bulls",
+      "is_italian": false,
+      "notes": "Combo guard esplosiva, candidato alternativo alla #1."
+    },
+    {
+      "pick": 3,
+      "name": "Caleb Holt",
+      "position": "SG/PG",
+      "height": "6-5",
+      "class": "Freshman",
+      "team": "Arizona",
+      "projected_team": "Memphis Grizzlies",
+      "is_italian": false,
+      "notes": "Two-way guard già pronta fisicamente per l'impatto immediato."
+    },
+    {
+      "pick": 4,
+      "name": "Bruce Branch III",
+      "position": "SG/SF",
+      "height": "6-7",
+      "class": "Freshman",
+      "team": "BYU",
+      "projected_team": "Houston Rockets (via BKN)",
+      "is_italian": false,
+      "notes": "Wing di taglia con altissimo upside da tiratore."
+    },
+    {
+      "pick": 5,
+      "name": "Stefan Joksimovic",
+      "position": "PG",
+      "height": "6-7",
+      "class": "Intl",
+      "team": "Baskonia (Spain)",
+      "projected_team": "Atlanta Hawks (via NOP)",
+      "is_italian": false,
+      "notes": "Playmaker di 201 cm, MVP dell'Europeo U18 a Trento."
+    },
+    {
+      "pick": 6,
+      "name": "Braylon Mullins",
+      "position": "SG",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "UConn",
+      "projected_team": "New Orleans Pelicans (via MIL)",
+      "is_italian": false,
+      "notes": "Tiratore d'élite nel sistema di Dan Hurley."
+    },
+    {
+      "pick": 7,
+      "name": "Thomas Haugh",
+      "position": "SF/PF",
+      "height": "6-9",
+      "class": "Senior",
+      "team": "Florida",
+      "projected_team": "Memphis Grizzlies (via UTA)",
+      "is_italian": false,
+      "notes": "Combo-forward versatile ad altissima energia su due lati."
+    },
+    {
+      "pick": 8,
+      "name": "Jason Crowe Jr.",
+      "position": "PG/SG",
+      "height": "6-3",
+      "class": "Freshman",
+      "team": "Missouri",
+      "projected_team": "Charlotte Hornets (via DAL)",
+      "is_italian": false,
+      "notes": "Shot-maker puro con istinti offensivi naturali."
+    },
+    {
+      "pick": 9,
+      "name": "Anthony Thompson",
+      "position": "SF/PF",
+      "height": "6-9",
+      "class": "Freshman",
+      "team": "Ohio State",
+      "projected_team": "Washington Wizards",
+      "is_italian": false,
+      "notes": "Ala moderna con grande apertura alare e tiro perimetrale."
+    },
+    {
+      "pick": 10,
+      "name": "Cameron Williams",
+      "position": "F/C",
+      "height": "6-11",
+      "class": "Freshman",
+      "team": "Duke",
+      "projected_team": "Houston Rockets (via PHX)",
+      "is_italian": false,
+      "notes": "Lungo mobile e coordinato, gran potenziale face-up."
+    },
+    {
+      "pick": 11,
+      "name": "Caleb Gaskins",
+      "position": "PF",
+      "height": "6-8",
+      "class": "Freshman",
+      "team": "Miami",
+      "projected_team": "Lottery Pick",
+      "is_italian": false,
+      "notes": "Ala forte fisica e versatile."
+    },
+    {
+      "pick": 12,
+      "name": "Miikka Muurinen",
+      "position": "PF",
+      "height": "6-10",
+      "class": "Freshman",
+      "team": "Arkansas",
+      "projected_team": "Lottery Pick",
+      "is_italian": false,
+      "notes": "Stretch-big finlandese dotato di mobilità e tiro da fuori."
+    },
+    {
+      "pick": 13,
+      "name": "Austin Goosby",
+      "position": "PG/SG",
+      "height": "6-5",
+      "class": "Freshman",
+      "team": "Texas",
+      "projected_team": "Lottery Pick",
+      "is_italian": false,
+      "notes": "Guardia alta con letture di pick-and-roll avanzate."
+    },
+    {
+      "pick": 14,
+      "name": "Motiejus Krivas",
+      "position": "C",
+      "height": "7-2",
+      "class": "Senior",
+      "team": "Arizona",
+      "projected_team": "Lottery Pick",
+      "is_italian": false,
+      "notes": "Centro lituano solido a rimbalzo e nella protezione del pitturato."
+    },
+    {
+      "pick": 15,
+      "name": "Luigi Suigo",
+      "position": "C",
+      "height": "7-2",
+      "class": "Freshman",
+      "team": "Villanova",
+      "projected_team": "Mid-First Round (#15)",
+      "is_italian": true,
+      "notes": "🇮🇹 Prospetto azzurro più alto sul tabellone ESPN: 218 cm, 7'5.5\" di wingspan e tiro da fuori."
+    },
+    {
+      "pick": 16,
+      "name": "Matt Able",
+      "position": "SG",
+      "height": "6-5",
+      "class": "Sophomore",
+      "team": "North Carolina",
+      "projected_team": "Mid-First Round",
+      "is_italian": false,
+      "notes": "Esterno atletico in rampa di lancio al secondo anno a UNC."
+    },
+    {
+      "pick": 17,
+      "name": "Alex Condon",
+      "position": "PF/C",
+      "height": "6-11",
+      "class": "Senior",
+      "team": "Florida",
+      "projected_team": "Mid-First Round",
+      "is_italian": false,
+      "notes": "Lungo australiano solido, passatore dal post e rim protector."
+    },
+    {
+      "pick": 18,
+      "name": "Dame Sarr",
+      "position": "SG",
+      "height": "6-8",
+      "class": "Sophomore",
+      "team": "Duke",
+      "projected_team": "Mid-First Round (#18)",
+      "is_italian": true,
+      "notes": "🇮🇹 Stabile al primo giro ESPN al secondo anno a Duke; 16 punti con il 100% dal campo al debutto."
+    },
+    {
+      "pick": 19,
+      "name": "Cameron Houindo",
+      "position": "PF",
+      "height": "6-10",
+      "class": "Intl",
+      "team": "Cedevita Olimpija",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Ala francese esplosiva sopra il ferro."
+    },
+    {
+      "pick": 20,
+      "name": "Christian Collins",
+      "position": "SF",
+      "height": "6-8",
+      "class": "Freshman",
+      "team": "USC",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Wing fluida con grande potenziale su due metà campo."
+    },
+    {
+      "pick": 21,
+      "name": "Babatunde Oladotun",
+      "position": "SF",
+      "height": "6-9",
+      "class": "Freshman",
+      "team": "Maryland",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Uno dei freshmen più giovani della classe con taglia d'élite."
+    },
+    {
+      "pick": 22,
+      "name": "Jaxon Richardson",
+      "position": "SF",
+      "height": "6-6",
+      "class": "Freshman",
+      "team": "Alabama",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Figlio di Jason Richardson, atletismo verticale fuori scala."
+    },
+    {
+      "pick": 23,
+      "name": "Brandon McCoy",
+      "position": "SG",
+      "height": "6-4",
+      "class": "Freshman",
+      "team": "Michigan",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Guardia two-way con grande pressione sulla palla."
+    },
+    {
+      "pick": 24,
+      "name": "Hugo Yimga-Moukouri",
+      "position": "SF",
+      "height": "6-8",
+      "class": "Intl",
+      "team": "Nanterre (France)",
+      "projected_team": "First Round",
+      "is_italian": false,
+      "notes": "Ala fisica francese già produttiva in LNB."
+    },
+    {
+      "pick": 25,
+      "name": "Sayon Keita",
+      "position": "C",
+      "height": "6-11",
+      "class": "Freshman",
+      "team": "North Carolina",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Rim protector mobile e intimidatore d'area."
+    },
+    {
+      "pick": 26,
+      "name": "Amari Allen",
+      "position": "SF",
+      "height": "6-7",
+      "class": "Sophomore",
+      "team": "Alabama",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Slasher potente nel sistema ad alto ritmo di Nate Oats."
+    },
+    {
+      "pick": 27,
+      "name": "Ivan Kharchenkov",
+      "position": "SF",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "Arizona",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Esterno tedesco solido e maturo, ex Bayern Monaco."
+    },
+    {
+      "pick": 28,
+      "name": "Patrick Ngongba II",
+      "position": "C",
+      "height": "6-11",
+      "class": "Sophomore",
+      "team": "Duke",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Ancora difensiva e passatore intelligente dal post alto."
+    },
+    {
+      "pick": 29,
+      "name": "Juke Harris",
+      "position": "SG",
+      "height": "6-6",
+      "class": "Sophomore",
+      "team": "Tennessee",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Guardia dinamica in uscita dai blocchi."
+    },
+    {
+      "pick": 30,
+      "name": "Tyler Tanner",
+      "position": "PG",
+      "height": "6-1",
+      "class": "Junior",
+      "team": "Vanderbilt",
+      "projected_team": "Late First Round",
+      "is_italian": false,
+      "notes": "Playmaker rapido con ottime percentuali al tiro."
+    }
   ],
   "players": [
     {
@@ -60,9 +361,32 @@
         "wingspan": "7-5.5",
         "scouting": "Alla #15 nel Mock Draft ESPN. 218 cm con mano morbida da tre e protezione del ferro immediata in Big East."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 25.0, "points_per_game": 7.0, "rebounds_per_game": 5.0, "assists_per_game": 0.0, "blocks_per_game": 1.5, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 58.0, "usage_rate": 16.5 },
-      "shot_diet": { "rim_pct": 65, "mid_pct": 10, "three_pct": 25 },
-      "last_game": { "opponent": "Notre Dame", "date": "2026-11-01", "result": "L 72-74", "points": 7, "rebounds": 5, "assists": 0, "minutes": 25 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 25.0,
+        "points_per_game": 7.0,
+        "rebounds_per_game": 5.0,
+        "assists_per_game": 0.0,
+        "blocks_per_game": 1.5,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 58.0,
+        "usage_rate": 16.5
+      },
+      "shot_diet": {
+        "rim_pct": 65,
+        "mid_pct": 10,
+        "three_pct": 25
+      },
+      "last_game": {
+        "opponent": "Notre Dame",
+        "date": "2026-11-01",
+        "result": "L 72-74",
+        "points": 7,
+        "rebounds": 5,
+        "assists": 0,
+        "minutes": 25
+      }
     },
     {
       "id": "dame-sarr",
@@ -84,9 +408,32 @@
         "wingspan": "6-11.75",
         "scouting": "Alla #18 nel Mock Draft ESPN. Rimasto a Duke per esplodere da sophomore: 16 punti con 5/5 dal campo e 6/6 ai liberi all'esordio contro Army."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 21.0, "points_per_game": 16.0, "rebounds_per_game": 4.0, "assists_per_game": 3.0, "blocks_per_game": 0.0, "field_goal_pct": 100.0, "three_point_pct": 0.0, "true_shooting_pct": 104.7, "usage_rate": 24.5 },
-      "shot_diet": { "rim_pct": 70, "mid_pct": 30, "three_pct": 0 },
-      "last_game": { "opponent": "Army", "date": "2026-11-02", "result": "W 84-50", "points": 16, "rebounds": 4, "assists": 3, "minutes": 21 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 21.0,
+        "points_per_game": 16.0,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 3.0,
+        "blocks_per_game": 0.0,
+        "field_goal_pct": 100.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 104.7,
+        "usage_rate": 24.5
+      },
+      "shot_diet": {
+        "rim_pct": 70,
+        "mid_pct": 30,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "Army",
+        "date": "2026-11-02",
+        "result": "W 84-50",
+        "points": 16,
+        "rebounds": 4,
+        "assists": 3,
+        "minutes": 21
+      }
     },
     {
       "id": "saliou-niang",
@@ -108,9 +455,32 @@
         "wingspan": "6-11",
         "scouting": "Sbarcato in SEC dalla Virtus Bologna (buyout 500k$) con il via libera NCAA. Difensore d'élite sul lato debole e atleta verticale."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 24.0, "points_per_game": 11.0, "rebounds_per_game": 6.0, "assists_per_game": 2.0, "blocks_per_game": 1.0, "field_goal_pct": 52.5, "three_point_pct": 33.3, "true_shooting_pct": 59.5, "usage_rate": 20.5 },
-      "shot_diet": { "rim_pct": 60, "mid_pct": 15, "three_pct": 25 },
-      "last_game": { "opponent": "Season Opener", "date": "2026-11-02", "result": "W", "points": 11, "rebounds": 6, "assists": 2, "minutes": 24 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 24.0,
+        "points_per_game": 11.0,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 2.0,
+        "blocks_per_game": 1.0,
+        "field_goal_pct": 52.5,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 59.5,
+        "usage_rate": 20.5
+      },
+      "shot_diet": {
+        "rim_pct": 60,
+        "mid_pct": 15,
+        "three_pct": 25
+      },
+      "last_game": {
+        "opponent": "Season Opener",
+        "date": "2026-11-02",
+        "result": "W",
+        "points": 11,
+        "rebounds": 6,
+        "assists": 2,
+        "minutes": 24
+      }
     },
     {
       "id": "quinn-ellis",
@@ -132,9 +502,32 @@
         "wingspan": "6-7",
         "scouting": "Di formazione italiana, passato dall'Olimpia Milano alla corte di Rick Pitino a St. John's con maxi accordo NIL (13 PT, 8 RB, 9 AS in amichevole con Rutgers)."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 32.0, "points_per_game": 13.0, "rebounds_per_game": 6.0, "assists_per_game": 7.5, "blocks_per_game": 0.5, "field_goal_pct": 48.0, "three_point_pct": 38.5, "true_shooting_pct": 60.5, "usage_rate": 23.0 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 20, "three_pct": 40 },
-      "last_game": { "opponent": "Fordham / Opener", "date": "2026-11-02", "result": "W", "points": 13, "rebounds": 6, "assists": 8, "minutes": 32 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 32.0,
+        "points_per_game": 13.0,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 7.5,
+        "blocks_per_game": 0.5,
+        "field_goal_pct": 48.0,
+        "three_point_pct": 38.5,
+        "true_shooting_pct": 60.5,
+        "usage_rate": 23.0
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 20,
+        "three_pct": 40
+      },
+      "last_game": {
+        "opponent": "Fordham / Opener",
+        "date": "2026-11-02",
+        "result": "W",
+        "points": 13,
+        "rebounds": 6,
+        "assists": 8,
+        "minutes": 32
+      }
     },
     {
       "id": "andrew-osasuyi",
@@ -156,9 +549,32 @@
         "wingspan": "7-2",
         "scouting": "Salto in SEC a Georgia dopo l'anno a St. Bonaventure. Esordio da 4 punti, 4 rimbalzi e 3 stoppate in soli 11 minuti contro NC Central."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 11.0, "points_per_game": 4.0, "rebounds_per_game": 4.0, "assists_per_game": 0.0, "blocks_per_game": 3.0, "field_goal_pct": 66.7, "three_point_pct": 0.0, "true_shooting_pct": 66.7, "usage_rate": 16.0 },
-      "shot_diet": { "rim_pct": 90, "mid_pct": 10, "three_pct": 0 },
-      "last_game": { "opponent": "NC Central", "date": "2026-11-02", "result": "W 78-62", "points": 4, "rebounds": 4, "assists": 0, "minutes": 11 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 11.0,
+        "points_per_game": 4.0,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 0.0,
+        "blocks_per_game": 3.0,
+        "field_goal_pct": 66.7,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 66.7,
+        "usage_rate": 16.0
+      },
+      "shot_diet": {
+        "rim_pct": 90,
+        "mid_pct": 10,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "NC Central",
+        "date": "2026-11-02",
+        "result": "W 78-62",
+        "points": 4,
+        "rebounds": 4,
+        "assists": 0,
+        "minutes": 11
+      }
     },
     {
       "id": "diego-garavaglia",
@@ -180,8 +596,22 @@
         "wingspan": "6-11",
         "scouting": "Sbarcato in Big Ten da coach Steve Pikiell dopo l'esperienza pro a Ulm."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 5.0, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 45.0, "three_point_pct": 35.0, "true_shooting_pct": 56.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 45, "mid_pct": 15, "three_pct": 40 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 45.0,
+        "three_point_pct": 35.0,
+        "true_shooting_pct": 56.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 45,
+        "mid_pct": 15,
+        "three_pct": 40
+      }
     },
     {
       "id": "elisee-assui",
@@ -203,9 +633,31 @@
         "wingspan": "6-9",
         "scouting": "In ACC a Florida State dopo una stagione vera in LBA a Varese."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 12.0, "points_per_game": 0.0, "rebounds_per_game": 2.0, "assists_per_game": 1.0, "field_goal_pct": 0.0, "three_point_pct": 0.0, "true_shooting_pct": 0.0, "usage_rate": 12.0 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 10, "three_pct": 50 },
-      "last_game": { "opponent": "Florida A&M", "date": "2026-11-02", "result": "W 113-69", "points": 0, "rebounds": 2, "assists": 1, "minutes": 12 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 12.0,
+        "points_per_game": 0.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 0.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 0.0,
+        "usage_rate": 12.0
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 10,
+        "three_pct": 50
+      },
+      "last_game": {
+        "opponent": "Florida A&M",
+        "date": "2026-11-02",
+        "result": "W 113-69",
+        "points": 0,
+        "rebounds": 2,
+        "assists": 1,
+        "minutes": 12
+      }
     },
     {
       "id": "emmanuel-innocenti",
@@ -227,9 +679,31 @@
         "wingspan": "6-9",
         "scouting": "Trasferito da Gonzaga ad Arizona State in Big 12. Esordio vinto 75-65 su ETSU con 5 punti in 17 minuti."
       },
-      "stats": { "games_played": 1, "minutes_per_game": 17.0, "points_per_game": 5.0, "rebounds_per_game": 1.0, "assists_per_game": 1.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 62.5, "usage_rate": 14.5 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 15, "three_pct": 45 },
-      "last_game": { "opponent": "East Tennessee State", "date": "2026-11-02", "result": "W 75-65", "points": 5, "rebounds": 1, "assists": 1, "minutes": 17 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 17.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 1.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 62.5,
+        "usage_rate": 14.5
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 15,
+        "three_pct": 45
+      },
+      "last_game": {
+        "opponent": "East Tennessee State",
+        "date": "2026-11-02",
+        "result": "W 75-65",
+        "points": 5,
+        "rebounds": 1,
+        "assists": 1,
+        "minutes": 17
+      }
     },
     {
       "id": "maikcol-perez",
@@ -244,9 +718,31 @@
       "hometown": "Bassano del Grappa (VI)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 5.0, "points_per_game": 2.0, "rebounds_per_game": 0.0, "assists_per_game": 0.0, "field_goal_pct": 100.0, "three_point_pct": 0.0, "true_shooting_pct": 100.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 80, "mid_pct": 20, "three_pct": 0 },
-      "last_game": { "opponent": "Northwestern State", "date": "2026-11-02", "result": "W 87-65", "points": 2, "rebounds": 0, "assists": 0, "minutes": 5 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 5.0,
+        "points_per_game": 2.0,
+        "rebounds_per_game": 0.0,
+        "assists_per_game": 0.0,
+        "field_goal_pct": 100.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 100.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 80,
+        "mid_pct": 20,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "Northwestern State",
+        "date": "2026-11-02",
+        "result": "W 87-65",
+        "points": 2,
+        "rebounds": 0,
+        "assists": 0,
+        "minutes": 5
+      }
     },
     {
       "id": "niccolo-moretti",
@@ -261,9 +757,31 @@
       "hometown": "Bologna",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 26.0, "points_per_game": 6.0, "rebounds_per_game": 2.0, "assists_per_game": 6.0, "field_goal_pct": 75.0, "three_point_pct": 0.0, "true_shooting_pct": 75.0, "usage_rate": 18.0 },
-      "shot_diet": { "rim_pct": 50, "mid_pct": 50, "three_pct": 0 },
-      "last_game": { "opponent": "Schreiner", "date": "2026-11-02", "result": "W 124-62", "points": 6, "rebounds": 2, "assists": 6, "minutes": 26 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 26.0,
+        "points_per_game": 6.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 6.0,
+        "field_goal_pct": 75.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 75.0,
+        "usage_rate": 18.0
+      },
+      "shot_diet": {
+        "rim_pct": 50,
+        "mid_pct": 50,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "Schreiner",
+        "date": "2026-11-02",
+        "result": "W 124-62",
+        "points": 6,
+        "rebounds": 2,
+        "assists": 6,
+        "minutes": 26
+      }
     },
     {
       "id": "achille-lonati",
@@ -278,8 +796,22 @@
       "hometown": "Pavia",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 15.0, "points_per_game": 5.0, "rebounds_per_game": 1.5, "assists_per_game": 1.0, "field_goal_pct": 42.0, "three_point_pct": 38.0, "true_shooting_pct": 56.0, "usage_rate": 16.5 },
-      "shot_diet": { "rim_pct": 25, "mid_pct": 15, "three_pct": 60 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 15.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 1.5,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 42.0,
+        "three_point_pct": 38.0,
+        "true_shooting_pct": 56.0,
+        "usage_rate": 16.5
+      },
+      "shot_diet": {
+        "rim_pct": 25,
+        "mid_pct": 15,
+        "three_pct": 60
+      }
     },
     {
       "id": "gabriel-pozzato",
@@ -294,8 +826,22 @@
       "hometown": "Isola Vicentina (VI)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 18.0, "points_per_game": 6.0, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 45.0, "three_point_pct": 36.0, "true_shooting_pct": 56.5, "usage_rate": 17.5 },
-      "shot_diet": { "rim_pct": 35, "mid_pct": 20, "three_pct": 45 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 18.0,
+        "points_per_game": 6.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 45.0,
+        "three_point_pct": 36.0,
+        "true_shooting_pct": 56.5,
+        "usage_rate": 17.5
+      },
+      "shot_diet": {
+        "rim_pct": 35,
+        "mid_pct": 20,
+        "three_pct": 45
+      }
     },
     {
       "id": "leonardo-marangon",
@@ -310,8 +856,22 @@
       "hometown": "Padova",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 4.0, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 58.0, "usage_rate": 14.0 },
-      "shot_diet": { "rim_pct": 50, "mid_pct": 15, "three_pct": 35 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 4.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 58.0,
+        "usage_rate": 14.0
+      },
+      "shot_diet": {
+        "rim_pct": 50,
+        "mid_pct": 15,
+        "three_pct": 35
+      }
     },
     {
       "id": "david-torresani",
@@ -326,8 +886,22 @@
       "hometown": "Treviso",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 15.0, "points_per_game": 5.0, "rebounds_per_game": 2.0, "assists_per_game": 2.5, "field_goal_pct": 44.0, "three_point_pct": 36.0, "true_shooting_pct": 55.0, "usage_rate": 18.0 },
-      "shot_diet": { "rim_pct": 35, "mid_pct": 25, "three_pct": 40 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 15.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 2.5,
+        "field_goal_pct": 44.0,
+        "three_point_pct": 36.0,
+        "true_shooting_pct": 55.0,
+        "usage_rate": 18.0
+      },
+      "shot_diet": {
+        "rim_pct": 35,
+        "mid_pct": 25,
+        "three_pct": 40
+      }
     },
     {
       "id": "luca-vincini",
@@ -342,8 +916,22 @@
       "hometown": "Torino",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 12.0, "points_per_game": 4.0, "rebounds_per_game": 3.5, "assists_per_game": 0.5, "field_goal_pct": 55.0, "three_point_pct": 0.0, "true_shooting_pct": 57.5, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 80, "mid_pct": 20, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 12.0,
+        "points_per_game": 4.0,
+        "rebounds_per_game": 3.5,
+        "assists_per_game": 0.5,
+        "field_goal_pct": 55.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 57.5,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 80,
+        "mid_pct": 20,
+        "three_pct": 0
+      }
     },
     {
       "id": "timoty-van-der-knaap",
@@ -358,8 +946,22 @@
       "hometown": "Milano",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 18.0, "points_per_game": 7.0, "rebounds_per_game": 4.5, "assists_per_game": 1.5, "field_goal_pct": 48.0, "three_point_pct": 36.0, "true_shooting_pct": 58.5, "usage_rate": 16.5 },
-      "shot_diet": { "rim_pct": 45, "mid_pct": 15, "three_pct": 40 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 18.0,
+        "points_per_game": 7.0,
+        "rebounds_per_game": 4.5,
+        "assists_per_game": 1.5,
+        "field_goal_pct": 48.0,
+        "three_point_pct": 36.0,
+        "true_shooting_pct": 58.5,
+        "usage_rate": 16.5
+      },
+      "shot_diet": {
+        "rim_pct": 45,
+        "mid_pct": 15,
+        "three_pct": 40
+      }
     },
     {
       "id": "riccardo-greppi",
@@ -374,8 +976,22 @@
       "hometown": "Cantù (CO)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 16.0, "points_per_game": 6.0, "rebounds_per_game": 5.0, "assists_per_game": 0.5, "field_goal_pct": 60.0, "three_point_pct": 0.0, "true_shooting_pct": 61.0, "usage_rate": 15.5 },
-      "shot_diet": { "rim_pct": 85, "mid_pct": 15, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 16.0,
+        "points_per_game": 6.0,
+        "rebounds_per_game": 5.0,
+        "assists_per_game": 0.5,
+        "field_goal_pct": 60.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 61.0,
+        "usage_rate": 15.5
+      },
+      "shot_diet": {
+        "rim_pct": 85,
+        "mid_pct": 15,
+        "three_pct": 0
+      }
     },
     {
       "id": "mattia-de-martin",
@@ -390,8 +1006,22 @@
       "hometown": "Vicenza",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 5.0, "rebounds_per_game": 2.0, "assists_per_game": 1.0, "field_goal_pct": 44.0, "three_point_pct": 38.0, "true_shooting_pct": 57.0, "usage_rate": 14.5 },
-      "shot_diet": { "rim_pct": 30, "mid_pct": 15, "three_pct": 55 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 44.0,
+        "three_point_pct": 38.0,
+        "true_shooting_pct": 57.0,
+        "usage_rate": 14.5
+      },
+      "shot_diet": {
+        "rim_pct": 30,
+        "mid_pct": 15,
+        "three_pct": 55
+      }
     },
     {
       "id": "nicolo-virginio",
@@ -406,8 +1036,22 @@
       "hometown": "Varese",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 16.0, "points_per_game": 6.0, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 45.0, "three_point_pct": 38.5, "true_shooting_pct": 58.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 25, "mid_pct": 10, "three_pct": 65 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 16.0,
+        "points_per_game": 6.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 45.0,
+        "three_point_pct": 38.5,
+        "true_shooting_pct": 58.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 25,
+        "mid_pct": 10,
+        "three_pct": 65
+      }
     },
     {
       "id": "alessandro-perotti",
@@ -422,9 +1066,31 @@
       "hometown": "Torino",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 8.0, "points_per_game": 2.0, "rebounds_per_game": 2.0, "assists_per_game": 0.0, "field_goal_pct": 50.0, "three_point_pct": 0.0, "true_shooting_pct": 50.0, "usage_rate": 12.0 },
-      "shot_diet": { "rim_pct": 90, "mid_pct": 10, "three_pct": 0 },
-      "last_game": { "opponent": "Milwaukee", "date": "2026-11-02", "result": "W 95-63", "points": 2, "rebounds": 2, "assists": 0, "minutes": 8 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 8.0,
+        "points_per_game": 2.0,
+        "rebounds_per_game": 2.0,
+        "assists_per_game": 0.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 50.0,
+        "usage_rate": 12.0
+      },
+      "shot_diet": {
+        "rim_pct": 90,
+        "mid_pct": 10,
+        "three_pct": 0
+      },
+      "last_game": {
+        "opponent": "Milwaukee",
+        "date": "2026-11-02",
+        "result": "W 95-63",
+        "points": 2,
+        "rebounds": 2,
+        "assists": 0,
+        "minutes": 8
+      }
     },
     {
       "id": "alessio-calamita",
@@ -439,8 +1105,22 @@
       "hometown": "Trento",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 4.5, "rebounds_per_game": 3.5, "assists_per_game": 1.0, "field_goal_pct": 52.0, "three_point_pct": 30.0, "true_shooting_pct": 56.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 65, "mid_pct": 15, "three_pct": 20 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 4.5,
+        "rebounds_per_game": 3.5,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 52.0,
+        "three_point_pct": 30.0,
+        "true_shooting_pct": 56.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 65,
+        "mid_pct": 15,
+        "three_pct": 20
+      }
     },
     {
       "id": "samuele-miccoli",
@@ -455,8 +1135,22 @@
       "hometown": "Milano",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 22.0, "points_per_game": 8.0, "rebounds_per_game": 2.5, "assists_per_game": 4.0, "field_goal_pct": 46.0, "three_point_pct": 36.0, "true_shooting_pct": 57.5, "usage_rate": 20.0 },
-      "shot_diet": { "rim_pct": 35, "mid_pct": 25, "three_pct": 40 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 22.0,
+        "points_per_game": 8.0,
+        "rebounds_per_game": 2.5,
+        "assists_per_game": 4.0,
+        "field_goal_pct": 46.0,
+        "three_point_pct": 36.0,
+        "true_shooting_pct": 57.5,
+        "usage_rate": 20.0
+      },
+      "shot_diet": {
+        "rim_pct": 35,
+        "mid_pct": 25,
+        "three_pct": 40
+      }
     },
     {
       "id": "daniel-emokhare",
@@ -471,8 +1165,22 @@
       "hometown": "Italia",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 15.0, "points_per_game": 5.0, "rebounds_per_game": 4.0, "assists_per_game": 0.5, "field_goal_pct": 50.0, "three_point_pct": 30.0, "true_shooting_pct": 55.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 65, "mid_pct": 15, "three_pct": 20 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 15.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 0.5,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 30.0,
+        "true_shooting_pct": 55.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 65,
+        "mid_pct": 15,
+        "three_pct": 20
+      }
     },
     {
       "id": "brian-angeletti",
@@ -487,8 +1195,22 @@
       "hometown": "Bassano del Grappa (VI)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 4.5, "rebounds_per_game": 2.5, "assists_per_game": 1.0, "field_goal_pct": 44.0, "three_point_pct": 35.0, "true_shooting_pct": 55.5, "usage_rate": 14.5 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 20, "three_pct": 40 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 4.5,
+        "rebounds_per_game": 2.5,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 44.0,
+        "three_point_pct": 35.0,
+        "true_shooting_pct": 55.5,
+        "usage_rate": 14.5
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 20,
+        "three_pct": 40
+      }
     },
     {
       "id": "federico-grani",
@@ -503,9 +1225,31 @@
       "hometown": "Roma",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 14.0, "points_per_game": 5.0, "rebounds_per_game": 3.5, "assists_per_game": 1.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 58.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 50, "mid_pct": 15, "three_pct": 35 },
-      "last_game": { "opponent": "Utah Tech", "date": "2026-11-02", "result": "W 100-60", "points": 5, "rebounds": 4, "assists": 1, "minutes": 14 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 14.0,
+        "points_per_game": 5.0,
+        "rebounds_per_game": 3.5,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 58.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 50,
+        "mid_pct": 15,
+        "three_pct": 35
+      },
+      "last_game": {
+        "opponent": "Utah Tech",
+        "date": "2026-11-02",
+        "result": "W 100-60",
+        "points": 5,
+        "rebounds": 4,
+        "assists": 1,
+        "minutes": 14
+      }
     },
     {
       "id": "davide-poser",
@@ -520,8 +1264,22 @@
       "hometown": "Conegliano (TV)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 24.0, "points_per_game": 9.0, "rebounds_per_game": 5.0, "assists_per_game": 1.5, "field_goal_pct": 47.0, "three_point_pct": 37.5, "true_shooting_pct": 58.5, "usage_rate": 18.5 },
-      "shot_diet": { "rim_pct": 40, "mid_pct": 15, "three_pct": 45 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 24.0,
+        "points_per_game": 9.0,
+        "rebounds_per_game": 5.0,
+        "assists_per_game": 1.5,
+        "field_goal_pct": 47.0,
+        "three_point_pct": 37.5,
+        "true_shooting_pct": 58.5,
+        "usage_rate": 18.5
+      },
+      "shot_diet": {
+        "rim_pct": 40,
+        "mid_pct": 15,
+        "three_pct": 45
+      }
     },
     {
       "id": "daniel-james",
@@ -536,8 +1294,22 @@
       "hometown": "Italia",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 21.0, "points_per_game": 7.5, "rebounds_per_game": 6.0, "assists_per_game": 1.0, "field_goal_pct": 54.0, "three_point_pct": 0.0, "true_shooting_pct": 57.0, "usage_rate": 16.5 },
-      "shot_diet": { "rim_pct": 80, "mid_pct": 20, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 21.0,
+        "points_per_game": 7.5,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 54.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 57.0,
+        "usage_rate": 16.5
+      },
+      "shot_diet": {
+        "rim_pct": 80,
+        "mid_pct": 20,
+        "three_pct": 0
+      }
     },
     {
       "id": "rene-damelio",
@@ -552,8 +1324,22 @@
       "hometown": "Trieste",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 16.0, "points_per_game": 5.5, "rebounds_per_game": 4.0, "assists_per_game": 1.0, "field_goal_pct": 50.0, "three_point_pct": 33.3, "true_shooting_pct": 57.0, "usage_rate": 15.5 },
-      "shot_diet": { "rim_pct": 55, "mid_pct": 15, "three_pct": 30 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 16.0,
+        "points_per_game": 5.5,
+        "rebounds_per_game": 4.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 50.0,
+        "three_point_pct": 33.3,
+        "true_shooting_pct": 57.0,
+        "usage_rate": 15.5
+      },
+      "shot_diet": {
+        "rim_pct": 55,
+        "mid_pct": 15,
+        "three_pct": 30
+      }
     },
     {
       "id": "pietro-ranieri",
@@ -568,8 +1354,22 @@
       "hometown": "Roma",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 12.0, "points_per_game": 4.0, "rebounds_per_game": 3.0, "assists_per_game": 0.5, "field_goal_pct": 52.0, "three_point_pct": 0.0, "true_shooting_pct": 55.0, "usage_rate": 14.0 },
-      "shot_diet": { "rim_pct": 75, "mid_pct": 25, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 12.0,
+        "points_per_game": 4.0,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 0.5,
+        "field_goal_pct": 52.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 55.0,
+        "usage_rate": 14.0
+      },
+      "shot_diet": {
+        "rim_pct": 75,
+        "mid_pct": 25,
+        "three_pct": 0
+      }
     },
     {
       "id": "lucio-martini",
@@ -584,8 +1384,22 @@
       "hometown": "Italia",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 11.0, "points_per_game": 3.5, "rebounds_per_game": 3.5, "assists_per_game": 0.5, "field_goal_pct": 55.0, "three_point_pct": 0.0, "true_shooting_pct": 56.5, "usage_rate": 13.5 },
-      "shot_diet": { "rim_pct": 85, "mid_pct": 15, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 11.0,
+        "points_per_game": 3.5,
+        "rebounds_per_game": 3.5,
+        "assists_per_game": 0.5,
+        "field_goal_pct": 55.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 56.5,
+        "usage_rate": 13.5
+      },
+      "shot_diet": {
+        "rim_pct": 85,
+        "mid_pct": 15,
+        "three_pct": 0
+      }
     },
     {
       "id": "francesco-corato",
@@ -600,8 +1414,22 @@
       "hometown": "Padova",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 13.0, "points_per_game": 4.5, "rebounds_per_game": 3.0, "assists_per_game": 1.0, "field_goal_pct": 46.0, "three_point_pct": 35.0, "true_shooting_pct": 56.0, "usage_rate": 15.0 },
-      "shot_diet": { "rim_pct": 45, "mid_pct": 20, "three_pct": 35 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 13.0,
+        "points_per_game": 4.5,
+        "rebounds_per_game": 3.0,
+        "assists_per_game": 1.0,
+        "field_goal_pct": 46.0,
+        "three_point_pct": 35.0,
+        "true_shooting_pct": 56.0,
+        "usage_rate": 15.0
+      },
+      "shot_diet": {
+        "rim_pct": 45,
+        "mid_pct": 20,
+        "three_pct": 35
+      }
     },
     {
       "id": "dorin-buca",
@@ -616,8 +1444,23 @@
       "hometown": "Narni (TR)",
       "draft_eligible": 2027,
       "is_draft_prospect": false,
-      "stats": { "games_played": 1, "minutes_per_game": 18.0, "points_per_game": 6.5, "rebounds_per_game": 6.0, "assists_per_game": 0.5, "blocks_per_game": 1.8, "field_goal_pct": 62.0, "three_point_pct": 0.0, "true_shooting_pct": 63.0, "usage_rate": 16.0 },
-      "shot_diet": { "rim_pct": 95, "mid_pct": 5, "three_pct": 0 }
+      "stats": {
+        "games_played": 1,
+        "minutes_per_game": 18.0,
+        "points_per_game": 6.5,
+        "rebounds_per_game": 6.0,
+        "assists_per_game": 0.5,
+        "blocks_per_game": 1.8,
+        "field_goal_pct": 62.0,
+        "three_point_pct": 0.0,
+        "true_shooting_pct": 63.0,
+        "usage_rate": 16.0
+      },
+      "shot_diet": {
+        "rim_pct": 95,
+        "mid_pct": 5,
+        "three_pct": 0
+      }
     }
   ]
 }
